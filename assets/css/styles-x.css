@@ -1,0 +1,52 @@
+
+body {
+
+  font-family: Open Sans;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #333333;
+  background-color: #ffffff;
+  font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; 
+}
+
+
+
+
+/* Base */
+
+
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.icon-x {
+  background-image: url('../images/x-icon.svg');
+  background-position: center center;
+  height: 14px;
+  line-height: 24px;
+  width: 14px;
+}
+
+
+.has-pattern-sm {
+  background: radial-gradient(ellipse farthest-corner, #065380 0%, #105f89 20.5%, #002536 100%) left top repeat fixed #084360;
+}
+
+.has-pattern-aq {
+  background: radial-gradient(ellipse farthest-corner, #065380 0%, #002536 100%) left top repeat fixed #084360 ;
+}
+
+
+
+/* Sections */
+
+
+
+.faq h2, .faq h3 {
+  color: #084360;
+}

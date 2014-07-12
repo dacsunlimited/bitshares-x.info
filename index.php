@@ -1,73 +1,25 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
-    <title>Responsive website template for mobile app</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>  
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <!-- Plugins CSS -->    
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
-    <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles-4.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head> 
-
-<body data-spy="scroll">
-    <!-- ******HEADER****** --> 
-    <header id="top" class="header navbar-fixed-top">  
-        <div class="container">            
-            <h1 class="logo pull-left">
-                <a class="scrollto" href="#promo">
-                    <img id="logo-image" class="logo-image" src="assets/images/bts-bluegreen-small.png" alt="Logo">
-                </a>
-            </h1><!--//logo-->              
-            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button><!--//nav-toggle-->
-                </div><!--//navbar-header-->            
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">Features</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#how">How it works</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#story">Story</a></li>
-                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->           
-        </div>
-    </header><!--//header-->
+<?php include('header.php') ?>
     
     <!-- ******PROMO****** --> 
-    <section id="promo" class="promo section offset-header has-pattern">
-        <div class="container">
-            <div class="row">
-                <img src="assets/images/xt-header.png" />
-                <p>
-                BitShares X is an experimental new type of decentralized exchange that will allow for trading derivative assets (like BitGold) that track the value of real-world assets (like Gold) without requiring a trusted price feed. This is done with a prediction-market-like mechanic which rewards traders who push the price towards consensus.
-                </p>
+    <section id="promo" class="promo section offset-header has-pattern-sm story">
+        <div class="container overview">
+            <div class="col-md-6" style="padding-top: 24px;">
+                <h2>Test</h2>
+                    <p>
+                    BitShares X is an experimental new type of decentralized exchange that will allow for trading derivative assets (like BitGold) that track the value of real-world assets (like Gold) without requiring a trusted price feed. This is done with a prediction-market-like mechanic which rewards traders who push the price towards consensus.
+                    </p> 
+                    <a style="opacity: 0;" class="btn btn-xs btn-primary scrollto animated fadeInUp delayp1" href="#contact">Get in touch <small><i class="fa fa-arrow-right"></i></small></a>
+               </div>
+                <div class="col-md-6">
+                       <center>
+                      <h1 class="gui">
+                          <a class="scrollto" href="#wallet">
+                              <img style="position: absolute; margin: -36px 0 0 -296px;" src="assets/images/x-gui-acc.png" alt="Logo">
+                          </a>
+                      </h1><!--//logo-->    
+                        </center> 
+                        </div>
+                     
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//promo-->
@@ -77,49 +29,34 @@
         <div class="container">
             <div class="row">
                 <h2 class="title text-center sr-only">Features</h2>
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-cloud-upload"></i>                
-                    </div><!--//icon-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                  
                     <div class="content">
-                        <h3 class="title">App Feature One</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>  
+                        <h3 class="title"><img src="assets/images/x-typo.png" /> X</h3>
+                        <p>BitShares X is a family of DACs that implement the business model of a bank and exchange.<br> Learn more about!</p>  
                     </div><!--//content-->               
                 </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-rocket"></i>                
-                    </div><!--//icon-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                  
                     <div class="content">
-                        <h3 class="title">App Feature Two</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
+                        <h3 class="title"><img src="assets/images/x-typo.png" /> FX</h3>
+                        <p>This bank specializes in deposits of gold, bitcoin, and US dollars and will be the first fully functional bank and exchange. </p>   
                     </div><!--//content-->               
                 </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-users"></i>                
-                    </div><!--//icon-->
+                <div class="item col-md-4 col-sm-6 col-xs-12 text-center">
+                
                     <div class="content">
-                        <h3 class="title">App Feature Three</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
+                        <h3 class="title"><img src="assets/images/x-typo.png" /> CX</h3>
+                        <p>This bank specializes in commodities trading and is scheduled to be released after BitShares FX has proven itself in the market.</p>   
                     </div><!--//content-->               
                 </div><!--//item-->
-                <div class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-map-marker"></i>                
-                    </div><!--//icon-->
-                    <div class="content">
-                        <h3 class="title">App Feature Four</h3>
-                        <p>Outline an app feature here. You can change the icon above to any of the 300+ <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">FontAwsome icons</a> available. </p>   
-                    </div><!--//content-->               
-                </div><!--//item-->
-            </div><!--//row-->
+             </div><!--//row-->
             
         </div><!--//container-->
     </section><!--//features-->
     
     <!-- ******HOW****** --> 
-    <section id="how" class="promo section has-pattern">
+    <section id="how" class="promo section has-pattern-sm story">
         <div class="container">
             <div class="row">
                 Please I don't understand help
@@ -127,7 +64,6 @@
                     <li>http://invictus-innovations.com/bitshares-as-dac-bank</li>
                     <li>http://bitshares.org/what-is-bitshares-x/</li>
                     <li>http://bitshares.org/bookie-bobs-solution-to-bitcoin-volatility/</li>
-                    <li>https://bitsharestalk.org/index.php?topic=4563.msg67786#msg67786</li>
                 </ul>
                 warning, these are outdated. they refer to "bitshares" when now it is called "bitshares X"
                 <ul>
@@ -138,7 +74,7 @@
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//how-->
-    
+  
     <!-- ******FAQ****** --> 
     <section id="faq" class="faq section">
         <div class="container">
@@ -174,15 +110,16 @@
                 </div><!--//faq-col-->
             </div><!--//row-->
         </div><!--//container-->
+</section>
     </section><!--//faq-->
      
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="container">
-            <small class="copyright pull-left">Copyright &copy; 2014 Delta App</small>
+            <small class="copyright pull-left"></small>
             <ul class="links list-inline">
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
             </ul>
         </div>
     </footer><!--//footer-->
