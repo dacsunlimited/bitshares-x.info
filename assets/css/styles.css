@@ -10,7 +10,7 @@ body {
   color: #444444;
 }
 a {
-  color: #286da8;
+  color: #053D56;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -31,8 +31,8 @@ a:hover {
   margin-right: 5px;
 }
 .btn-theme {
-  background: #286da8;
-  border: 1px solid #286da8;
+  background: #053D56;
+  border: 1px solid #053D56;
   color: #fff;
 }
 .btn-theme:hover {
@@ -46,7 +46,7 @@ a:hover {
   box-shadow: none;
 }
 .form-control:focus {
-  border-color: #286da8;
+  border-color: #053D56;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -95,7 +95,7 @@ blockquote {
   float: left;
 }
 .social-icons a:hover {
-  background: #143856;
+  background: #053D56;
 }
 .social-icons a .fa {
   color: #fff;
@@ -130,7 +130,7 @@ blockquote {
 }
 .has-pattern {
   background-image: url('../images/xt-background.jpg');
-  background-repeat: repeat;
+  background-size: cover;
   background-position: left top;
 }
 .delayp1 {
@@ -264,6 +264,7 @@ blockquote {
   color: #444444;
 }
 .header h1.logo a img {
+  margin-top: 4px;
   margin-right: 5px;
   max-height: 50px;
 }
@@ -271,7 +272,7 @@ blockquote {
   vertical-align: middle;
 }
 .header .main-nav button {
-  background: #0b1d2c;
+  background: #00AEEF;
   color: #fff !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -294,7 +295,7 @@ blockquote {
   margin-right: 10px;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #286da8;
+  color: #053D56;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
@@ -305,7 +306,7 @@ blockquote {
   -o-transition: none;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #286da8;
+  color: #053D56;
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -317,14 +318,14 @@ blockquote {
   background: none;
 }
 .header .main-nav .nav .nav-item.active {
-  color: #286da8;
+  color: #053D56;
 }
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
 /* ======= Footer ======= */
 .footer {
-  background: #444444;
+  background: radial-gradient(ellipse farthest-corner, #065380 0%, #002536 100%) left top repeat fixed #084360;
   color: #fff;
   padding: 15px 0;
 }
@@ -339,7 +340,7 @@ blockquote {
   color: #808080;
 }
 .footer .links a:hover {
-  color: #286da8;
+  color: #053D56;
 }
 /* ======= FlexSlider ======= */
 .flexslider {
@@ -363,17 +364,17 @@ blockquote {
   background: #a1a1a1;
 }
 .flexslider .flex-control-paging li a:hover {
-  background: #286da8;
+  background: #053D56;
 }
 .flexslider .flex-control-paging li a.flex-active {
-  background: #286da8;
+  background: #053D56;
 }
 .flexslider .slides li {
   position: relative;
 }
 /* ======= Promo Section ======= */
 .promo {
-  background-color: #286da8;
+  background-color: #053D56;
   color: #fff;
 }
 .promo .container {
@@ -412,7 +413,7 @@ blockquote {
   margin-bottom: 15px;
 }
 .promo .overview .btn-group li a {
-  background-color: #143856;
+  background-color: #053D56;
   background-repeat: no-repeat;
   background-position: left top;
   -webkit-border-radius: 4px;
@@ -440,7 +441,7 @@ blockquote {
 }
 .promo .overview .note {
   position: relative;
-  color: #143856;
+  color: #053D56;
 }
 .promo .overview .note p {
   padding-top: 15px;
@@ -585,10 +586,11 @@ blockquote {
   padding: 80px 0;
 }
 .features .icon {
+  font-family: 'Lato';
   position: relative;
   width: 90px;
   height: 90px;
-  border: 3px solid #286da8;
+  border: 2px solid #ccc;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -603,11 +605,23 @@ blockquote {
   -moz-transition: -moz-transform ease-out 0.2s, background 0.3s;
   transition: transform ease-out 0.2s, background 0.3s;
 }
+
+.features .icon h1 {
+  margin-top: 24px;
+  color: #00abf1;
+}
+
+.features .icon h1:hover {
+  color: #00abf1;
+}
+
 .features .icon:hover {
-  background: #286da8;
+  background: #053D56;
   color: #fff;
+  border: 2px solid #00abf1;
 }
 .features .icon:hover .fa {
+  font-family: 'Lato';
   color: #fff;
   -webkit-transform: scale(0.93);
   -moz-transform: scale(0.93);
@@ -615,17 +629,19 @@ blockquote {
   -o-transform: scale(0.93);
 }
 .features .icon .fa {
-  color: #286da8;
+  font-family: 'Lato';
+  color: #00abf1;
   font-size: 48px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+  border-color: #00abf1;
 }
 .features .content {
   padding: 30px;
 }
 .features .content .title {
-  color: #286da8;
+  color: #053D56;
   font-size: 18px;
   margin-top: 0;
 }
@@ -702,7 +718,8 @@ blockquote {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border-bottom: 3px solid #87b8e2;
+  border-bottom: 3px solid #053D56;
+  border-color: #bdd4dd;
 }
 .faq .item .question {
   margin-top: 0;
@@ -711,7 +728,7 @@ blockquote {
 }
 .faq .item .question .fa {
   margin-right: 10px;
-  color: #3488cf;
+  color: #00AEEF;
 }
 .faq .item .answer {
   color: #777777;
@@ -734,7 +751,7 @@ blockquote {
 }
 /* ======= Story Section ======= */
 .story {
-  background-color: #286da8;
+  background-color: #053D56;
   color: #fff;
   padding: 80px 0;
 }
@@ -766,7 +783,7 @@ blockquote {
   font-size: 26px;
 }
 .story .team .connect a {
-  color: #143856;
+  color: #053D56;
 }
 .story .team .connect a:hover {
   color: #060f18;
@@ -797,7 +814,7 @@ blockquote {
   margin-bottom: 23px;
 }
 .testimonials .item .quote-box .fa {
-  color: #286da8;
+  color: #053D56;
   font-size: 18px;
   position: absolute;
   left: 30px;
@@ -843,7 +860,7 @@ blockquote {
   color: #999999;
 }
 .testimonials .press .note {
-  color: #286da8;
+  color: #053D56;
   margin-bottom: 30px;
 }
 .testimonials .press li {
@@ -869,7 +886,7 @@ blockquote {
 }
 /* ======= Contact Section ======= */
 .contact {
-  background-color: #286da8;
+  background-color: #053D56;
   color: #fff;
   padding: 80px 0;
 }
@@ -887,14 +904,14 @@ blockquote {
 }
 .contact .intro li {
   margin-bottom: 10px;
-  color: #143856;
+  color: #053D56;
   font-size: 16px;
 }
 .contact .intro li .fa {
   margin-right: 10px;
 }
 .contact .intro li a {
-  color: #143856;
+  color: #053D56;
 }
 .contact .intro li a:hover {
   color: #0b1d2c;
@@ -905,7 +922,7 @@ blockquote {
   padding: 10px 15px;
 }
 .contact .contact-form .btn-theme {
-  background-color: #143856;
+  background-color: #053D56;
   margin-top: 15px;
 }
 .contact .social-icons {
@@ -991,7 +1008,7 @@ blockquote {
   color: #999999;
 }
 .config-panel #device-options a:hover {
-  color: #286da8;
+  color: #053D56;
 }
 .config-panel #device-options li.active a {
   color: #4994d4;
@@ -1021,7 +1038,7 @@ blockquote {
   background-color: #7cb75e;
 }
 .config-panel #color-options li.theme-4 a {
-  background-color: #286da8;
+  background-color: #053D56;
 }
 .config-panel #color-options li.theme-5 a {
   background-color: #37ba67;
@@ -1052,6 +1069,9 @@ blockquote {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+
+
+
   .promo .overview .summary li {
     font-size: 18px;
   }
