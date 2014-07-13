@@ -49,9 +49,9 @@
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">X family</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#how">How it works</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#how">About</a></li>
                         <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a href="http://wiki.bitshares.org/index.php/Bitshares_X">Wiki</a></li>
                     </ul><!--//nav-->
                      <a style="margin-top: 12px;" class="btn btn-xs btn-success  pull-right">Get Wallet!</a>
                     
