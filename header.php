@@ -49,7 +49,6 @@
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#how">About</a></li>
                         <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
                         <li class="nav-item"><a href="http://wiki.bitshares.org/index.php/Bitshares_X">Wiki</a></li>
                     </ul><!--//nav-->
