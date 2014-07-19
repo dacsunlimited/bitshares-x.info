@@ -52,7 +52,7 @@
                         <li class="nav-item"><a class="scrollto" href="#faq">FAQ</a></li>
                         <li class="nav-item"><a href="http://wiki.bitshares.org/index.php/Bitshares_X">Wiki</a></li>
                     </ul><!--//nav-->
-                     <a style="margin-top: 12px;" class="btn btn-xs btn-success  pull-right">Get Wallet!</a>
+                     <a style="margin-top: 12px;" class="btn btn-xs btn-success  pull-right" href="https://github.com/dacsunlimited/bitsharesx/releases/tag/0.2.0">Get Wallet!</a>
                     
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->           

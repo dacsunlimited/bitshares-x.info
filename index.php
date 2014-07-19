@@ -8,7 +8,7 @@
                     <p>
                     BitShares X is an experimental new type of decentralized exchange that will allow for trading derivative assets (like BitGold) that track the value of real-world assets (like Gold) without requiring a trusted price feed. This will be done with a prediction-market-like mechanic which rewards traders who push the price towards consensus.
                     </p> 
-                    <a style="opacity: 0;" class="btn btn-xs btn-primary scrollto animated fadeInUp delayp1" href="#how">Download Client<small><i class="fa fa-arrow-right"></i></small></a>
+                    <!--<a style="opacity: 0;" class="btn btn-xs btn-primary scrollto animated fadeInUp delayp1" href="https://github.com/dacsunlimited/bitsharesx/releases/tag/0.2.0">Download Client<small><i class="fa fa-arrow-right"></i></small></a>-->
                </div>
                 <div class="col-md-6">
                        <center>
