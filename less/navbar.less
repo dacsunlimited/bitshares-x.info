@@ -1,0 +1,182 @@
+// Custom styles to navbar overriding Bootstrap styles
+// ---------------------------------------------
+
+// Logo and login styling at the top of the main page
+// ---------------------------------------------------
+header {
+
+	.container {
+		padding: 1em 0;
+	}
+		
+	.topNav {
+		margin: 1em 0 0 0;
+		text-align: left;
+		z-index: @zindex-navbar-fixed; // See variables.less
+	}
+
+	// Logo styles
+	a.navbar-brand {
+		color: @white;
+		font-family: @fontFamilySanSerif;
+		.font-size(.8);
+		padding: 0 .3em 0 0;
+		text-transform: uppercase;
+
+		span {
+			border: solid .1em @white;
+			color: @white;
+			font-family: @fontFamilySanSerif;
+			font-weight: @fontBold;
+			.font-size(1.1);
+			margin-right: .5em;
+			padding: .3em .2em .3em .3em;
+			text-transform: uppercase;
+		}
+	} // end a.navbar-brand
+
+	// Login link styles
+	.loginLink {
+		color: @white;
+		.font-size(.85);
+		margin-top: .4em;
+		text-transform: uppercase;
+
+		&:hover {
+			color: @gray-lighter;
+		}
+	} // end .loginLink	
+} // end header
+
+
+// Main navigation
+// ---------------------------------------------------
+.navbar {
+	border: none;
+	border-radius: 0;
+
+	.container {
+		padding: 0;
+		max-width: 100%;
+	}
+
+	.navbar-header {
+		
+		button {
+			
+			i {
+				color: @gray-dark;
+			}
+		} // end button
+	} // end .navbar-header
+
+	ul.navbar-nav {
+		float: none;
+		list-style-type: none;
+		margin: 0;
+		text-align: center;
+
+		li {
+			display: inline-block;
+			float: none;
+			padding: 1em 2%;
+
+			a {
+				background-color: transparent;
+				color: @navbarLinkColorDisabled; // See variables.less
+				.font-size(.85);
+				padding: 0;
+				text-transform: uppercase;
+			}
+
+			&.active a, & a:hover {
+				background-color: transparent;
+				color: @navbarLinkColorActive; // See variables.less
+			}
+		} // end li
+	} // end ul.navbar-nav
+} // end .navbar
+
+
+
+// Class added to the navbar once navbar is to the top of the screen
+// View custom.js for waypoints
+.navBg {
+	background-color: @white;
+	border-bottom: .1em solid @gray-lighter;
+	width: 100%;
+	z-index: 1034;
+}
+
+
+// Dark logo for signup.html and request.html pages
+header.headerDark {
+
+	.darkLogo {
+		color: @gray;
+	}
+
+	.darkLogoBorder {
+		border: solid .1em @gray;
+		.darkLogo;
+	}
+} // end header .headerDark
+
+
+
+// Responsive Navbar styles
+// ------------------------------------------
+
+// Collapsible navbar toggle styles
+.navbar-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1em;
+  height: 1.5em;
+  padding: 0;
+  background-color: none;
+  border: none;
+  border-radius: 0;
+  margin: .3em;
+  z-index: 1035;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+  }
+} // end .navbar-toggle
+
+
+// Phones and Tablets only
+// -----------------------------------------------
+@media (max-width: 768px) {
+
+	.navbar-collapse {
+		border-top: none;
+	}
+
+	// Remove .navBg class for Phones and Tablets only
+	.navBg {
+		background-color: transparent;
+		border-bottom: 0;
+	}
+
+	.navbar {
+
+		ul.navbar-nav {
+			// Background color for navigation menu
+			background-color: @linkColor;
+
+			li {
+				// Changes list items to align vertically
+				display: block;
+
+				a{
+					color: @white;
+				}
+			} // end li
+		} // end ul.navbar-nav
+	} // end .navbar
+	
+} // end @media (max-width: 768px)

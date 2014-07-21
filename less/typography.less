@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Roboto:400,300,700);
+
+
+@fontFamilySanSerif: 'Lato', san-serif;
+@fontFamilyMain: 'Roboto', san-serif;
+@fontBold: 700;
+@fontNormal: 400;
+@fontLight: 300;
+@lineHeight: 1.5;
+@FontBaseSize: 16px;
+
+
+// Headings and Paragraph
+// ---------------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @fontFamilySanSerif;
+	font-weight: @fontLight;
+	line-height: @lineHeight;
+	color: @gray;
+}
+
+h1 {
+	font-family: @fontFamilySanSerif;
+	.font-size(6);
+	font-weight: @fontBold;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+h2 {
+	.font-size(1.5);
+	font-weight: @fontNormal;
+	text-transform: uppercase;
+}
+
+h3 {
+	.font-size(1.2);
+	font-weight: @fontNormal;
+}
+
+h4 {
+	color: lighten(@gray,25%);
+	.font-size(1.1);
+}
+
+h5 {
+	.font-size(.875);
+}
+
+h6 {
+	.font-size(.75);
+	font-weight: @fontNormal;
+}
+
+p {
+	color: lighten(@gray,15%);
+	font-family: @fontFamilyMain;
+	.font-size(1);
+	font-weight: @fontLight;
+}
+
+
+// Group headings
+// ---------------------------------------------
+
+h2 + h4 {
+ 	font-family: @fontFamilyMain;
+ 	margin: 0 auto 5%;
+ 	text-align: center;
+ 	width: 60%;
+}
+
+
+
+// Blockquote
+// ---------------------------------------------
+
+blockquote {
+	border-left: none;
+	color: @textColor;
+	.font-size(1.1);
+	font-style: italic;
+	font-weight: @fontLight;
+	margin: 10% auto;
+	padding: 0;
+	width: 80%;
+
+	small {
+		padding-top: 1.5em;
+		text-align: center;
+		text-transform: capitalize;
+
+		cite {
+			font-style: italic;
+		}
+	} // end small
+
+	&:before, &:after {
+		content: none;
+	}
+} // end blockquote
+
+
+
+// Mixins font-size fallback to px
+// ---------------------------------------------
+
+.font-size(@sizeValue) {
+	@remValue: (@sizeValue);
+	@pxValue: (@sizeValue * 16);
+	font-size: (~"@{pxValue}px";
+	font-size: (~"@{remValue}rem";
+}
