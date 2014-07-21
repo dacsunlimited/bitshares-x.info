@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>BitShares X - Step outside the boX. </title>
+		<title>BitSharesX - Step outside the boX. </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -53,7 +53,7 @@
 				<div class="container">
 					<div class="row topNav">
 						<a class="navbar-brand" href="index.php"><img src="img/btsx-logo-w.svg" alt="" width="160" /></a>
-						<a href="https://github.com/dacsunlimited/BitShares X/releases" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>
+						<a href="https://github.com/dacsunlimited/BitSharesx/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>
 						
 						<!-- Button trigger modal -->
 						
@@ -76,8 +76,8 @@
             						     		</div><!-- end .modal-header -->
             						      		<div class="modal-body">
                                            						      			<div class="row">
-            						      			<a href="https://github.com/dacsunlimited/BitShares X/releases/download/0.2.1/BitShares X-0.2.1.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">Bitshares X for Windows</a>
-            						      			<a href="https://github.com/dacsunlimited/BitShares X/releases/download/0.2.1/BitShares X-0.2.1.dmg" class="whoabtn" >Bitshares X for MAC</a>
+            						      			<a href="https://github.com/dacsunlimited/bitsharesx/releases/download/0.2.1/BitSharesX-0.2.1.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+            						      			<a href="https://github.com/dacsunlimited/bitsharesx/releases/download/0.2.1/BitSharesX-0.2.1.dmg" class="whoabtn" >BitsharesX for MAC</a>
             						      			           </div> 						      		</div><!-- end .modal-body -->
                                         				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
   
