@@ -1,0 +1,99 @@
+
+// Contact Form styles 
+// --------------------------------------------------
+// --------------------------------------------------
+
+// Removes labels for input boxes
+label {
+	display: none;
+}
+
+.form-control {
+  .font-size(1);
+  color: @gray;
+  vertical-align: middle;
+  background-color: @formInputBackgroundColor;
+  border: none;
+  border-radius: 0;
+  .box-shadow(none);
+  .transition(all .2s ease-in);
+
+  &:focus {
+    background-color: #999;
+    border-color: transparent;
+    color: @white;
+    outline: 0;
+    box-shadow: none;
+  }
+} // end .form-control
+
+
+// Form groups
+// Designed to help with the organization and spacing of vertical forms. For
+// horizontal forms, use the predefined grid classes.
+.form-group {
+  margin-bottom: 1em;
+  position: relative;
+}
+
+
+// Checkbox styles
+input[type="checkbox"] {
+  margin: .45em 0 0;
+}
+
+// Checkbox label styles
+.checkbox label {
+  .font-size(.85);
+  line-height: 1.75;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+
+// Form validation styles
+// -----------------------------------------------
+span.error, span.valid {
+  position: absolute;
+  top: -.2em; 
+  right: .5em;
+  width: 2.5em;
+  height: 2.5em;
+  background-position: center center;
+  background-size: 1.25em; 
+  background-repeat: no-repeat;
+}
+
+span.error {
+  background-image: url("../img/error.png");
+}
+
+span.valid {
+  background-image: url("../img/valid.png");
+}
+
+.alert {
+  display: none;
+  border: 0;
+  border-radius: 0;
+  background-color: #ff3333;
+  color: @white;
+  margin-top: 1em;
+}
+.alert-success {
+  background-color: #22b573;
+  color: @white;
+}
+
+
+// Phones and Tablets only
+// -----------------------------------------------
+@media (max-width: 767px) {
+
+  // Positions validation indicators within each form-group
+  span.error, span.valid {
+    top: -.1em; 
+    right: 1em;
+  }
+
+} // end @media (max-width: 767px)

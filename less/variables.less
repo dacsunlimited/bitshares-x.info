@@ -1,0 +1,97 @@
+// View bootstrap less colors in bootstrap/less/variables.less
+
+
+// Colors
+// ---------------------------------------------
+@black: #000000;
+@turquoise: #5197ab;
+@grayUltraLight: #f8f7f6;
+@white: #ffffff;
+
+// Grays
+@gray-darker: lighten(#000, 13.5%); // #222
+@gray-dark: lighten(#000, 20%);   // #333
+@gray: lighten(#000, 33.5%); // #555
+@gray-light: lighten(#000, 60%);   // #999
+@gray-lighter: lighten(#000, 93.5%); // #eee
+
+
+// Scaffolding colors
+// ---------------------------------------------
+@BackgroundColor: @white; // Body background color
+@textColor: @gray; // Color for all text
+
+
+// Link colors
+// ---------------------------------------------
+@linkColor: @turquoise;
+@linkColorHover: darken(@linkColor, 15%);
+
+
+// Navbar link colors
+// ---------------------------------------------
+@navbarLinkColor: @white;
+@navbarLinkColorActive: @gray-dark;
+@navbarLinkColorDisabled: lighten(@gray-light, 15%);
+@navbarLinkColorHover: @gray-dark;
+
+
+// Form Colors
+// ---------------------------------------------
+@placeholderText: lighten(@gray-light,15%);
+@formInputBackgroundColor: @grayUltraLight;
+
+
+// Hr border color
+// -------------------------
+@hrBorder: darken(@gray-lighter,10%);
+
+
+// Tooltip colors
+// -------------------------
+@tooltip-max-width:           200px;
+@tooltip-color:               #fff;
+@tooltip-bg:                  #000;
+
+// Arrow
+@tooltip-arrow-width:         5px;
+@tooltip-arrow-color:         @tooltip-bg;
+
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+
+@zindex-navbar:            1000;
+@zindex-dropdown:          1000;
+@zindex-popover:           1010;
+@zindex-tooltip:           1030;
+@zindex-navbar-fixed:      1030;
+@zindex-modal-background:  1040;
+@zindex-modal:             1050;
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+@screen-xs:                  480px;
+@screen-phone:               @screen-xs;
+
+// Small screen / tablet
+@screen-sm:                  768px;
+@screen-tablet:              @screen-sm;
+
+// Medium screen / desktop
+@screen-md:                  992px;
+@screen-desktop:             @screen-md;
+
+// Large screen / wide desktop
+@screen-lg:                  1200px;
+@screen-lg-desktop:          @screen-lg;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm - 1);
+@screen-sm-max:              (@screen-md - 1);
+@screen-md-max:              (@screen-lg - 1);

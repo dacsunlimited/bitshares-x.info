@@ -1,0 +1,25 @@
+// Place styles for buttons here
+// -------------------------------------
+
+// Main button styles
+.whoabtn {
+	background-color: @gray-light;
+	border-radius: 1.5em;
+	color: @white;
+	font-size: .8rem;
+	font-weight: @fontNormal;
+	letter-spacing: .1em;
+	padding: .6em 1em;
+	text-transform: uppercase;
+	.transition(background-color .3s ease-in);
+
+	&:hover {
+		background-color: @gray-dark;
+		color: @white;
+	}
+} // end .whoabtn
+
+button {
+	// Removes border from submit buttons
+	border: none;
+}

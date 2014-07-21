@@ -1,0 +1,725 @@
+// Main theme styles
+// --------------------------------------------
+// --------------------------------------------
+
+// Import variables and typography styles
+@import "variables.less";
+@import "typography.less";
+
+
+// Global
+// ---------------------------------------------
+html {
+	font-size: 100%;
+
+	// Styling for sticky footer for short content pages (ex login.html)
+	position: relative;
+	min-height: 100%
+}
+
+body {
+	background-color: @BackgroundColor; // See variables.less
+	font-family: @fontFamilySanSerif; // See typography.less
+	font-size: @FontBaseSize; // See typography.less
+	letter-spacing: .07em; // Global letter spacing
+	line-height: @lineHeight; // See typography.less
+	margin: 0 0 4em; // Change bottom margin to height of footer for sticky footer for small content pages (ex login.html)
+	width: 100%;
+}
+
+// Link and hover transition styles
+a {
+	color: @textColor;
+	.transition(color .2s ease-in);
+
+	&:hover {
+		color: @linkColor;
+		text-decoration: none;
+	}
+
+	// Fix for Firefox and Opera outline links
+	&:active, &:focus {
+		outline: 0px none;
+	}
+} // end a
+
+// Stop animation flickering in browsers
+.preserveHidden {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+} // end .preserveHidden
+
+
+// Intro  Section
+// ---------------------------------------------
+section.intro {
+	background-color: #6d695c;
+	background: url('../img/introBG.jpg') center center no-repeat;
+	background-size: cover;
+	height: 40em;
+
+	// Uncomment if you would like to use the same pattern displayed in the demo
+	// CSS background pattern http://patternizer.com
+	// background-image:
+	// repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) .1em, transparent .1em, transparent 60px),
+	// repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) .1em, transparent .1em, transparent 60px),
+	// linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	// linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	// background-size: 4.375em 7.5em;
+	
+	.introduction {
+		margin-top: 3%;
+		text-align: center;
+	}
+
+	h1 {
+		color: @white;
+		margin-bottom: .8em;
+
+		// Animation timings
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
+
+		-webkit-animation-delay: 1.3s;
+		-moz-animation-delay: 1.3s;
+		-o-animation-delay: 1.3s;
+		animation-delay: 1.3s;
+	} // end h1
+
+	h3 {
+		color: @white;
+		font-family: @fontFamilyMain;
+		.font-size(1.8);
+		font-style: italic;
+		font-variant: small-caps;
+
+		// Animation timings
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
+
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1s;
+		-o-animation-delay: 1s;
+		animation-delay: 1s;
+	} // end h3
+
+	.whoabtn {
+		background-color: @white;
+		color: @gray;
+		.transition(color .3s ease-in);
+
+		// Animation timings
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
+
+		-webkit-animation-delay: 2.3s;
+		-moz-animation-delay: 2.3s;
+		-o-animation-delay: 2.3s;
+		animation-delay: 2.3s;
+
+		&:hover {
+			background-color: @gray-dark;
+			color: @white;
+		}
+	} // end .whoabtn
+
+	h6 {
+		color: @white;
+		margin: 2em auto;
+		text-transform: uppercase;
+		width: 40%;
+
+		// Animation timings
+		-webkit-animation-duration: 1s;
+		-moz-animation-duration: 1s;
+		-o-animation-duration: 1s;
+		animation-duration: 1s;
+
+		-webkit-animation-delay: 2s;
+		-moz-animation-delay: 2s;
+		-o-animation-delay: 2s;
+		animation-delay: 2s;
+	} // end h6
+} // end section.intro
+
+
+
+// See navbar styles in navbar.less
+
+
+// Work Section
+// ---------------------------------------------
+section#work {
+	background-color: @white;
+
+	h2 {
+		text-align: center;
+	}
+
+	ul.projects {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			margin: (@grid-gutter-width / 2)  0; // Sets list items margins top and bottom the same as margins left and right
+		}
+
+		a {
+
+			img {
+				// Unsaturates images 40%
+				-webkit-filter: grayscale(40%);
+				-moz-filter: grayscale(40%);
+				-ms-filter: grayscale(40%);
+				-o-filter: grayscale(40%);
+				filter: grayscale(40%);
+				.transition(all .3s ease-in);
+
+				&:hover {
+					// Saturates images to oringal
+					-webkit-filter: grayscale(0%);
+					-moz-filter: grayscale(0%);
+					-ms-filter: grayscale(0%);
+					-o-filter: grayscale(0%);
+					filter: grayscale(0%);
+				}
+			} // end img
+
+			h5 {
+				font-style: italic;
+				font-weight: @fontNormal;
+				text-transform: uppercase;
+			}
+		} // end a
+	} // end ul.projects
+} // end section.work
+
+
+// About  Section
+// ---------------------------------------------
+section#about {
+	background-color: @gray-lighter;
+	height: 30em;
+	overflow: hidden;
+	position: relative;
+
+	.aboutUsImg {
+		position: absolute;
+		top: 10%;
+		bottom: 0;
+		left: -3%;
+	}
+
+	.aboutUsContent {
+		float: right;
+		margin-top: 2%;
+	}
+} // end section#about
+
+
+// Employees  Section
+// ---------------------------------------------
+section#employees {
+	background-color: @grayUltraLight;
+
+	.container {
+		padding: 1em 0;
+	}
+
+	ul.workers{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.profile {
+		margin: 5% 0;
+		text-align: center;
+
+		img {
+			margin: 0 auto;
+			.square(80%);
+		}
+
+		h4 {
+			font-weight: @fontNormal;
+			color: @gray-dark;
+			margin-top: .5em;
+			text-transform: capitalize;
+		}
+
+		h5 {
+			color: @gray;
+			margin-top: -.5em;
+			text-transform: uppercase;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0 auto;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				margin: 0 5%;
+			}
+		} // ul
+	} // end .profile
+} // end section.employees
+
+
+// Services  Section
+// ---------------------------------------------
+section#services {
+	background-color: @white;
+		
+	h2 {
+		text-align: center;
+	}
+
+	.service {
+		margin: 1em 0 2em;
+
+		img {
+			margin: 0 auto;
+		}
+
+		h3 {
+			text-align: center;
+		}
+
+		h3 + p {
+			text-align: center;
+		}
+	} // end .service
+} // end section#services
+
+
+// Prices  Section
+// ---------------------------------------------
+section#prices {
+	background-color: @grayUltraLight;
+
+	h2 {
+		text-align: center;
+	}
+
+	h5 {
+		font-style: italic;
+		text-transform: uppercase;
+	}
+
+	.priceOption {
+		background-color: #ddd;
+		margin: 2em 0;
+	}
+
+	.priceTop {
+		background-color: @black;
+		padding: .1em 1em;
+
+		h3 {
+			color: @white;
+			margin: .5em 0 ;
+			text-transform: uppercase;
+		}
+
+		.popular {
+			border-bottom: .2em solid @linkColor;
+		}
+
+		.price {
+			
+			sup {
+				color: @white;
+				.font-size(.8);
+			}
+
+			small {
+				.font-size(.7);
+				padding-left: .1em;
+			}
+		} // end .price
+	} // end .priceTop
+
+	.priceBottom {
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding-top: 1em;
+			-webkit-padding-start: 1em;
+
+			li {
+				font-weight: @fontLight;
+				padding: .7em 0;
+			}
+		} // end ul
+
+		h6 {
+			font-style: italic;
+			padding: 1.5em;
+		}
+	} // end .priceBottom
+
+	.trial {
+		margin: 2em 0;
+		text-align: center;
+
+		h3 {
+			color: @gray;
+			font-style: italic;
+			margin: 0 auto;
+		}
+
+		h5 {
+			margin-bottom: 2em;
+		}
+		
+	} // end .trial
+} // end section#prices
+
+
+/// Contact  Section
+// ---------------------------------------------
+section#contact {
+
+	// Map styles also see js/custom.js for additional map styles
+	#map-canvas {
+		height: 30em;
+		margin: 0 auto;
+		width: 100%;
+
+		// Removes distracting "terms" in right cover of map
+		.gm-style-cc {
+			display: none;
+		}
+	} // end #map-canvas
+	
+	.container:first-of-type {
+		max-width: 100%;
+	}
+
+	.row:first-of-type {
+		margin-bottom: 2em;
+		text-align: center;
+	}
+
+	.row:last-of-type {
+		margin-bottom: 3em;
+	}
+
+	ul.information {
+		list-style-type: none;
+		margin: 0 0 15% 0;
+
+		i {
+			float: left;
+			margin-top: .3em;
+		}
+
+		li {
+			margin: 0 0 1.5em 2em;
+
+			a{
+				font-size: 1rem;
+				text-transform: uppercase;
+			}
+
+		} // end li
+	} // end ul.information
+
+	ul.social {
+		list-style-type: none;
+		margin: 10% 0 0 0;
+
+		li {
+			display: inline-block;
+			margin: 0 1rem;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		} // end li
+	} // end ul.social
+} // end section.contact
+
+
+// Footer Section
+// -----------------------------------------
+footer {
+	background-color: @black;
+	// Styles for sticky footer
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 4em;
+	width: 100%;
+	
+	.container {
+		padding: 1rem 0 0;
+
+		h6 {
+			
+			strong {
+				letter-spacing: 0;
+				text-transform: uppercase;
+			}
+		} // end h6
+	} // end .container
+} // end footer
+
+
+
+// Exteral Pages
+// -----------------------------------------
+// -----------------------------------------
+
+// SignIn / Register Page (signup.html)
+// -----------------------------------------
+section.signIn {
+
+	.row {
+		margin: 0 auto;
+		width: 50%;
+	}
+
+	.tab-content{
+		border-right: solid .1em #ddd;
+		border-bottom: solid .1em #ddd;
+		border-left: solid .1em #ddd;
+		padding: 2em 1em 0;
+	}
+
+	.nav-tabs {
+
+		li.active {
+
+			a {
+				background-color: @white;
+				border-bottom-color: transparent;;
+				color: @gray;
+			}
+		} // end li.active
+
+		li {
+
+			a {
+				background-color: #eee;
+				border-radius: 0;
+				border-bottom-color: #ddd;
+				color: @gray-light;
+				text-transform: uppercase;
+			}
+		} // end li
+	} // end .nav-tabs	
+
+	fieldset {
+		margin-bottom: 2em;
+	}
+
+	h5 {
+		font-style: italic;
+		font-weight: @fontNormal;
+
+		a {
+			color: @gray-light;
+
+			&:hover {
+				color: @linkColor;
+			}
+		} // end a
+	} // end h5
+
+	button {
+		margin-top: 1em;
+	}
+} // end section.signIn
+
+
+// Password Request Page (request.html)
+// -----------------------------------------
+.passwordBox {
+	border: .1em solid #ddd;
+	padding: 1em;
+
+	h1 {
+		.font-size(1.5);
+		line-height: 1.5;
+	}
+}
+
+
+// Portfolio Page (portfolio.html)
+// -----------------------------------------
+
+// Mixin
+.projectIntro {
+	height: 30em;
+	overflow: hidden;
+	position: relative;
+}
+
+section.project1 {
+	background: url('../img/portfolioIntro.jpg') center center no-repeat;
+	background-size: cover;
+	.projectIntro; // Add this class to each portfolio project introduction section at the top
+	
+	.container {
+		padding: 1em 0 0 0;
+	}
+
+	.projectIntroInfo {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		overflow: auto;
+		height: 50%;
+		width: 100%;
+	}
+
+	.row {
+		text-align: center;
+		
+		h1 {
+			color: @white;
+			.font-size(4);
+			margin-top: 7%;
+
+			// Animation timings
+			-webkit-animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			-o-animation-duration: 1s;
+			animation-duration: 1s;
+
+			-webkit-animation-delay: 1s;
+			-moz-animation-delay: 1s;
+			-o-animation-delay: 1s;
+			animation-delay: 1s;
+		}
+
+		ul.projectCategories {
+			list-style-type: none;
+			margin: 0 auto;
+			padding: 0;
+			text-align: center;
+
+			// Animation timings
+			-webkit-animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			-o-animation-duration: 1s;
+			animation-duration: 1s;
+
+			-webkit-animation-delay: 1.3s;
+			-moz-animation-delay: 1.3s;
+			-o-animation-delay: 1.3s;
+			animation-delay: 1.3s;
+
+			li {
+				color: @white;
+				display: inline;
+				.font-size(.85);
+				padding: 0 .5em;
+				text-transform: uppercase;
+			} // end li
+		} // end ul
+	} // end .row
+} // end section.projectIntro
+
+section.caseStudiesNav {
+	background-color: @gray-lighter;
+
+	.container {
+		padding: 1em 0;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+
+		&:first-of-type {
+			text-align: left;
+		}
+
+		&:nth-of-type(2) {
+			margin-top: .1em;
+			text-align: center;
+		}
+
+		&:last-of-type {
+			text-align: right;
+		}
+
+		a{
+
+			i {
+				.font-size(2);
+			}
+		} // end a
+	} // end li	
+} // end section.caseStudiesNav
+
+section.caseStudy {
+
+	.row {
+		margin: @grid-gutter-width 0;
+	}
+
+	h2 {
+		margin: 3%;
+		text-align: center;
+	}
+
+	p {
+		margin: 1em auto;
+		text-align: left;
+		width: 60%;
+	}
+
+	p.viewSite {
+		margin: 2em auto;
+		text-align: center;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+
+			&:nth-of-type(5) {
+				clear: both;
+			}
+
+			img {
+				margin: (@grid-gutter-width / 2) 0;
+			}
+		} // end li
+	} // end ul	
+} // end section.caseStudy

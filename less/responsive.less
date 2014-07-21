@@ -1,0 +1,255 @@
+// Import variables and typography styles
+@import "variables.less";
+@import "typography.less";
+
+
+// MEDIA QUERIES STYLES
+// -----------------------------------------------
+// -----------------------------------------------
+
+
+
+// Tablets & small desktops only
+// -----------------------------------------------
+@media (min-width: 768px) and (max-width: 991px) {
+
+	// Global
+	// ---------------------------------------------
+	html {
+		font-size: 90%;
+	}
+
+	
+	// About Section
+	// ---------------------------------------------
+	section#about {
+		background-color: @gray-lighter;
+		height: 30em;
+		overflow: hidden;
+		position: relative;
+
+		.aboutUsImg {
+			position: absolute;
+			top: 10%;
+			left: -25%;
+			width: 85%;
+		}
+
+		.aboutUsContent {
+			float: right;
+			margin-top: 2%;
+			width: 40%;
+		}
+	} // end section#about
+
+} // end @media (min-width: 768px) and (max-width: 991px)
+
+
+
+
+// Phones and Tablets only
+// -----------------------------------------------
+@media (max-width: 767px) {
+
+	// Global
+	// ---------------------------------------------
+	html {
+		font-size: 80%;
+	}
+
+	// Typography
+	// ---------------------------------------------
+	h1 {
+		.font-size(3.5);
+	}
+
+	h2 + h4 {
+		width: 80%;
+	}
+
+	
+	// Intro Section
+	// ---------------------------------------------
+	section.intro {
+		height: 25em;
+
+		.container {
+			padding: 0;
+
+			.row {
+				margin-top: 5%;
+				text-align: center;
+			} // end .row
+
+			h6 {
+				width: 50%;
+			}
+
+			.topNav {
+				margin: 2em 0 0 0;
+				text-align: left;
+				z-index: 100;
+			} // end .topNav
+		} // end .container
+	} // end section.intro	
+
+	
+	// Work Section
+	// ---------------------------------------------
+	section#work {
+
+		ul.projects {
+
+			li {
+				margin-bottom: 2em;
+			}
+
+			a {
+
+				img {
+					-webkit-filter: grayscale(0%);
+					-moz-filter: grayscale(0%);
+					-ms-filter: grayscale(0%);
+					-o-filter: grayscale(0%);
+					filter: grayscale(0%);
+				}
+			} // end a
+		} // end ul.projects
+	} // end section#work 
+
+	
+	// About Section
+	// ---------------------------------------------
+	section#about {
+		height: auto;
+
+		.aboutUsImg {
+			position: relative;
+			top: 0%;
+			left: 0%;
+
+			img {}
+		}
+
+		.aboutUsContent {
+			float: none;
+			margin-top: 0%;
+		}
+	} // end section#about
+
+	
+	// Section Services
+	// ---------------------------------------------
+	section#services {
+
+		.service {
+
+			h3 + p {
+				margin: 0 auto 10%;
+				width: 80%;
+			}
+		} // end .service
+	} // end section#services
+
+	
+	// Section Contact
+	// ---------------------------------------------
+	section#contact {
+
+		#map-canvas {
+			height: 20em;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+
+		ul {
+			padding: 0;
+		}
+		ul.information {
+			margin: 15% 0;
+		}
+	} // end section#contact
+
+
+	
+	// External Pages
+	// ---------------------------------------------
+	// ---------------------------------------------
+
+	
+	// Signup Page (signup.html)
+	// ---------------------------------------------
+	section.signIn {
+		
+		.row {
+			width: 100%;
+		}
+	} // end section.signIn
+
+
+	// Portfolio Page (portfolio.html)
+	// ---------------------------------------------
+	section.projectIntro {
+		height: 15em;
+
+		.row {
+			
+			h1 {
+				.font-size(2.5);
+			}
+		} // end .row
+	} // end section.projectIntro
+
+	// Case study responsive navigation styles
+	section.caseStudiesNav {
+
+		ul {
+
+			li {
+				float: left;
+				width: 33%;
+			}
+		} // ul
+	} // end section.caseStudiesNav
+
+	section.caseStudy {
+
+		.row {
+			margin: @grid-gutter-width 0;
+
+			h2 {
+				margin: 3%;
+				text-align: center;
+			}
+
+			p {
+				text-align: left;
+				width: 100%
+			}
+
+			p.viewSite {
+				text-align: center;
+			}
+		} // end .row
+	} // end section.caseStudy
+
+} // end @media (max-width: 767px)
+
+
+// Phones
+// -----------------------------------------------
+@media (max-width: 480px) {
+
+	section.intro {
+
+		.container {
+
+			h6 {
+				.font-size(.65);
+				width: 75%;
+			}
+		} // end .container
+	} // section.intro
+
+} // end @media (max-width: 480px)
+
