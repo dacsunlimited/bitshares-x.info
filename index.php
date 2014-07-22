@@ -53,7 +53,7 @@
 				<div class="container">
 					<div class="row topNav">
 						<a class="navbar-brand" href="index.php"><img src="img/btsx-logo-w.svg" alt="" width="160" /></a>
-						<a href="https://github.com/dacsunlimited/BitSharesx/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>
+						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>
 						
 						<!-- Button trigger modal -->
 						
