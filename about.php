@@ -117,10 +117,10 @@
 				<div class="container">
 					<h2>MORE THAN EXPECTED.</h2>
 					<center>
-				<p>Welcome to the new world of BitSharesX.  A world where crypto-currencies, commodities, and stock derivatives can be traded with anyone, at anytime, directly and with no middlemen.  With most of the features used by professional traders, including shorts and options, this is an exchange who’s time has come.  BitSharesX makes this possible using the same blockchain technology that powers Bitcoin - irrevocable decentralized automated consensus forming. 
-				</p><p>
-				BitSharesX also functions as a bank account where funds can be transferred in seconds anywhere in the world with more privacy and security than a Swiss bank account. Your account can never be frozen, your funds cannot be seized, and the bank can never face collapse due to loan defaults or fraud. All of this is made possible without requiring any employees, lawyers, regulatory compliance, vaults, buildings, and other infrastructure required by traditional banks. Unlike existing banks, you can hold your balance denominated in gold, silver, oil, or other commodities in addition to national currencies.
-				</p>
+				<p>BitShares X is an experiment to test the economic theory behind a new kind of prediction market. This experiment creates a decentralized bank and exchange that uses a decentralized transaction ledger secured by DPOS to create fungible digital assets that are market-pegged to the value of anything from dollars, to gold, to gallons of gasoline. Like all DACs, BitShares X has shares that can be transferred between users in the same way as Bitcoin. What makes BitShares X special is that it also implements a business model similar to existing banks or brokerages.
+								</p><p>
+				BitShares X can create BitUSD by lending it into existence backed by collateral in the same way that the banking system lends dollars into existence today. Whereas your bank uses your house as collateral, BitShares X uses BTSX as collateral. If the value of the collateral falls relative to BitUSD then BitShares X will automatically cover your loan by selling the BTSX held as collateral for BitUSD and giving the borrower the BTSX is left over.
+								</p>
 				</center>
 				</div>
 				</div><!-- end .row -->
