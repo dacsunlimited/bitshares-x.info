@@ -144,8 +144,8 @@
 							possible with BitSharesX.  Your
 							one stop shop for cryptoequities
 							and bitassets. 	</p>
-							<a href="https://github.com/dacsunlimited/bitsharesx/releases/download/0.2.1/BitSharesX-0.2.1.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-							<a href="https://github.com/dacsunlimited/bitsharesx/releases/download/0.2.1/BitSharesX-0.2.1.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
+							<a href="/files/wallet/0.3.0/BitSharesX-0.3.0.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+							<a href="/files/wallet/0.3.0/BitSharesX-0.3.0.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
 							
 												
 					</div><!-- end .aboutUsContent -->
