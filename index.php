@@ -57,7 +57,7 @@
  
 	<body class="home" data-spy="scroll" data-target=".navbar" data-offset="53">
 		
-		<!-- Section Home -->
+		<!-- Section Home  -->
 		<section id="home" class="intro ">
 			<header>
 				<div class="container">
