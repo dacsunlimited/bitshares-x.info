@@ -39,6 +39,16 @@
 
 		<!-- Google map -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script>
+			    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+			    ga('create', 'UA-53814821-1', 'auto');
+			    ga('send', 'pageview');
+			  
+			  </script>
 		<style>
 
 		
@@ -53,7 +63,7 @@
 				<div class="container">
 					<div class="row topNav">
 						<a class="navbar-brand" href="index.php"><img src="img/btsx-logo-w.svg" alt="" width="160" /></a>
-						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>
+<!--						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>-->
 						
 						<!-- Button trigger modal -->
 						
@@ -68,7 +78,7 @@
             						  	<center> 
             						   <button  style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"> <img  src="img/btsx-ico-w.svg" width="48" alt="BitShares X Logo " /></button> 
             						  	
-            						  <h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download Wallet</h1>  
+            						  <h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download BitSharesX</h1>  
             						              						   
             						  
             						    	<div class="modal-content">
@@ -102,7 +112,7 @@
 					<h1 class="animated fadeInDown preserveHidden tk-myriad-pro" >Step outside the bo<img style="margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.</h1>
 					<h6 class="animated fadeIn preserveHidden" style="margin-top: -32px;">Trade crypto equities with security, privacy and speed. 
 					</h6>
-					<a href="#"   data-toggle="modal" data-target="#walletModal" class=" animated fadeIn preserveHidden btn whoabtn">Get started</a>
+					<a href="about.php"   class=" animated fadeIn  btn whoabtn">Learn more</a>
 								</div>	</div><!-- end .row -->
 			</div><!-- end .container -->
 		</section><!-- end section.intro -->
