@@ -243,7 +243,7 @@ Transactions take place in seconds, not minutes or in the case of wire transfers
 			<h3><i class=" icon-lock"></i></h3>
 				<h3>SECURITY</h3>
 				<p>
-Financial tools are nothing without security.  BitSharesX operates as a peer-to-peer network without any single point of failure. It uses <a href="#">Delegated Proof-of-Stake (DPOS)</a> for its blockchain security model.				</p>
+Financial tools are nothing without security.  BitSharesX operates as a peer-to-peer network without any single point of failure. It uses <a target="_blank" href="http://bitshares.org/intro-to-delegated-proof-of-stake/">Delegated Proof-of-Stake (DPOS)</a> for its blockchain security model.				</p>
 			</div>
 			</div>
 			<div class="row features">
