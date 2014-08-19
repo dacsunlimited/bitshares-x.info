@@ -67,9 +67,9 @@
                         						  </div><!-- end .modal-header -->
                         						      <div class="modal-body">
                                                        						      			<div class="row">
-                        						      			<a href="/binaries/wallet/0.3.0/BitSharesX-0.3.0.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-                        						      			<a href="/binaries/wallet/0.3.0/BitSharesX-0.3.0.dmg" class="whoabtn" >BitsharesX for MAC</a>
-                        						      			                        						      			           </div> 						      		</div><!-- end .modal-body -->
+                        						      			<a href="/files/wallet/0.3.0/BitSharesX-0.3.0.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitSharesX for Windows</a>
+                        						      			<a href="/files/wallet/0.3.0/BitSharesX-0.3.0.dmg" class="whoabtn" >BitSharesX for MAC</a>
+                        						      			           </div> 						      		</div><!-- end .modal-body -->
                                       				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
              
                         						    	</div><!-- end .modal-content -->
@@ -144,8 +144,8 @@
 							possible with BitSharesX.  Your
 							one stop shop for cryptoequities
 							and bitassets. 	</p>
-							<a href="https://github.com/dacsunlimited/bitsharesx/releases/download/0.2.1/BitSharesX-0.2.1.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-							<a href="https://github.com/dacsunlimited/bitsharesx/releases/download/0.2.1/BitSharesX-0.2.1.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
+							<a href="/files/wallet/0.3.0/BitSharesX-0.3.0.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+							<a href="/files/wallet/0.3.0/BitSharesX-0.3.0.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
 							
 												
 					</div><!-- end .aboutUsContent -->
@@ -261,15 +261,6 @@ Imagine all the properties that make Bitcoin so revolutionary combined with the 
 
 	    <!-- Custom scripts -->
 	    <script src="js/custom.js" type="text/javascript"></script>
-	 <script>
-	   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	 
-	   ga('create', 'UA-53814821-1', 'auto');
-	   ga('send', 'pageview');
-	 
-	 </script>
+	    
 	</body>
 </html>
