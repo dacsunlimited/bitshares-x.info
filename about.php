@@ -40,6 +40,16 @@
 
 		<!-- Google map -->
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script>
+			    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		 
+			    ga('create', 'UA-53814821-1', 'auto');
+			    ga('send', 'pageview');
+			  
+			  </script>
 	</head> 
  
 	<body class="about"  data-spy="scroll" data-target=".navbar" data-offset="53">
@@ -50,7 +60,7 @@
 				<div class="container">
 					<div class="row topNav">
 						<a class="navbar-brand" href="index.php"><img src="img/btsx-logo-w.svg" alt="" width="160" /></a>
-						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>
+<!--						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>-->
         <!-- Button trigger modal -->
         		
            <a href="#" style="background: none;" class="loginLink pull-right" data-toggle="modal" data-target="#walletModal">
@@ -61,7 +71,7 @@
                    <div class="modal-dialog">
                       <center> 
                         <button  style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"> <img  src="img/btsx-ico-w.svg" width="48" alt="BitSharesX Logo " /></button> 
-                        	<h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download Wallet</h1>  
+                        	<h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download BitSharesX</h1>  
                         			<div class="modal-content">
                         					<div class="modal-header">
                         						  </div><!-- end .modal-header -->
@@ -86,7 +96,7 @@
 			<div class="container">
 				<div class="row introduction" style="margin-top: 32  px;">
 					<h1 class="animated fadeInDown preserveHidden" style="text-transform: uppercase;">TRADE TODAY.</h1>
-										<a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Get started</a>
+										<a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>
 					
 					<h6 class="animated fadeIn preserveHidden">finance - banking - trading </h6>
 					
@@ -127,6 +137,47 @@
 							</div><!-- end .container -->
 		</section><!-- end section#introdesc -->
 
+
+
+<!-- Exchanges Section -->
+<section id="exchanges">
+	<div id="exchanges" class="container">
+	
+		<div class="row">
+  		<div class="container">
+  		  			<center>
+  		
+  			<h2>Want to aquire shares in BitSharesX?</h2>
+  		  <p>Visit these exchanges.</p>
+  		  </center>
+  		</div>
+		</div><!-- end .row -->
+		<div class="row" style="text-align: center; margin-top: -48px;">
+		  		<div class="container">
+		
+		  <div class="col-md-3" style="">
+		      <a target="_blank" href="https://bter.com/trade/BTSX_btc"><img src="img/ex-bter.png" class="img-responsive" alt="Bter" /></a>
+		  </div>
+		  
+		  <div class="col-md-3" style="">
+		  <a target="_blank" href="http://www.btc38.com/trade_en.html?mk_type=btc&btc38_trade_coin_name=btsx"><img src="img/ex-btc38.png" class="img-responsive" alt="BTC38" /></a>
+		  </div>
+		  
+		  <div class="col-md-3" style="">
+		   <a target="_blank" href="https://www.poloniex.com/exchange/btc_btsx"> <img src="img/ex-poloniex.png" class="img-responsive" alt="Poloniex" /></a>
+		  </div>
+		  
+  		<div class="col-md-3" style="">
+  			 <a target="_blank" href="https://coinport.com/trade#/BTSX-BTC"><img src="img/ex-coinport.png" class="img-responsive" alt="Coinport" /></a>
+  		</div>
+  		
+  
+		</div><!-- end .row -->
+		</div>
+		</div>
+		
+		</div><!-- end .container -->
+</section><!-- end section#introdesc -->
 
 
 		<!-- Wallet Section -->
@@ -192,7 +243,7 @@ Transactions take place in seconds, not minutes or in the case of wire transfers
 			<h3><i class=" icon-lock"></i></h3>
 				<h3>SECURITY</h3>
 				<p>
-Financial tools are nothing without security.  BitSharesX operates as a peer-to-peer network without any single point of failure. It uses <a href="#">Delegated Proof-of-Stake (DPOS)</a> for its blockchain security model.				</p>
+Financial tools are nothing without security.  BitSharesX operates as a peer-to-peer network without any single point of failure. It uses <a target="_blank" href="http://bitshares.org/intro-to-delegated-proof-of-stake/">Delegated Proof-of-Stake (DPOS)</a> for its blockchain security model.				</p>
 			</div>
 			</div>
 			<div class="row features">

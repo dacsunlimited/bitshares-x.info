@@ -510,6 +510,18 @@ section.intro h6 {
   animation-delay: 2s;
 }
 
+/* EXCHANGE SECTION
+--------------------------------------------------- */
+section#exchanges {
+  background-color: #fff;
+  margin-top: -96px;
+}
+section#exchanges h2, section#exchanges p  {
+  text-align: center;
+}
+
+
+
 /* WORK SECTION
 --------------------------------------------------- */
 section#work {
