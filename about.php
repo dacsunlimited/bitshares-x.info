@@ -147,7 +147,7 @@
   		<div class="container">
   		  			<center>
   		
-  			<h2>Want to aquire shares in BitSharesX?</h2>
+  			<h2>WANT TO GET YOUR SHARE OF BITSHARESX?</h2>
   		  <p>Visit these exchanges.</p>
   		  </center>
   		</div>
