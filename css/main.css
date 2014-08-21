@@ -361,7 +361,7 @@ body.home {
 body.about
 
 #about-intro {
-       background: url('../img/aboutBG.jpg') center center / cover no-repeat;
+       background: url('../img/aboutBG1.jpg') center center / cover no-repeat;
    
   }
 
@@ -513,8 +513,8 @@ section.intro h6 {
 /* EXCHANGE SECTION
 --------------------------------------------------- */
 section#exchanges {
-  background-color: #fff;
-  margin-top: -96px;
+  background-color: #eeeeee;
+  margin-top: 0px;
 }
 section#exchanges h2, section#exchanges p  {
   text-align: center;
@@ -1213,6 +1213,8 @@ span.valid {
   margin-top: 64px;
   text-align: center;
 }
+
+
 
 
 

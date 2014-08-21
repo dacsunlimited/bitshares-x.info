@@ -94,9 +94,9 @@
 				</div><!-- end .container -->
 			</header><!-- end header -->
 			<div class="container">
-				<div class="row introduction" style="margin-top: 32  px;">
-					<h1 class="animated fadeInDown preserveHidden" style="text-transform: uppercase;">TRADE TODAY.</h1>
-										<a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>
+				<div class="row introduction about-intro" style="margin-top: 32  px;">
+					<h1 class="about-intro animated fadeInDown preserveHidden" style="text-transform: uppercase;">Your Own Personal <br>Fort Kno<img style="margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " /></h1>
+<!--										<a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>-->
 					
 					<h6 class="animated fadeIn preserveHidden">finance - banking - trading </h6>
 					
@@ -125,59 +125,30 @@
 			<div class="container" style="padding-top: 0.2rem;">
 				<div class="row">
 				<div class="container">
-					<h2>MORE THAN EXPECTED.</h2>
 					<center>
-				<p>BitShares X is an experiment to test the economic theory behind a new kind of prediction market. This experiment creates a decentralized bank and exchange that uses a decentralized transaction ledger secured by DPOS to create fungible digital assets that are market-pegged to the value of anything from dollars, to gold, to gallons of gasoline. Like all DACs, BitShares X has shares that can be transferred between users in the same way as Bitcoin. What makes BitShares X special is that it also implements a business model similar to existing banks or brokerages.
-								</p><p>
-				BitShares X can create BitUSD by lending it into existence backed by collateral in the same way that the banking system lends dollars into existence today. Whereas your bank uses your house as collateral, BitShares X uses BTSX as collateral. If the value of the collateral falls relative to BitUSD then BitShares X will automatically cover your loan by selling the BTSX held as collateral for BitUSD and giving the borrower the BTSX is left over.
+				<p>Today many people have lost faith in the financial institutions we’ve trusted for centuries. Some of our largest banks have failed and no longer exist.  Those that survived needed massive bailouts. Citizens in some countries have lost their life savings to pay for failed government decisions.  And for those who do find safety, the value of their savings is being drained by the constant drip of inflation.  Our financial system is overdue for a reset.   
 								</p>
-				</center>
+		  <br><br><br /> 
+				<h2>- A new World -</h2>
+												<center>
+				
+				<p>What if we were to scrap it all and start over?  What would a new financial world look like?  A world where we could protect what’s valuable without needing to trust anyone. A world that will never need bailouts.  A world where your financial life is absolutely private. Where your funds can never be seized or your account closed.   A world not limited by borders, business hours, or location.  What would be possible if we could create this kind of world? We can. 
+				</p>
+				<p>Welcome to the new financial world of BitSharesX. BitSharesX is the world’s first virtual vault.  This is a vault where only you have the key.  BitSharesX allows you to buy, sell and trade all kinds of virtual assets that track the value of real world items like dollars, gold, silver and even shares of companies.  They can all be bought, sold or traded right in your BitSharesX account, with anyone on earth, at any time, instantly.   
+				</p><br /> <br /> 
+				<p>And the best part is, BitSharesX is free.<br /> Ready to get started?</p>
+				<p><a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>
+				</p><br /> <br />
+				<p><small><i>BitSharesX is powered by BitShares, an open source technology.
+				Learn more at <a href="http://www.bitshares.org" target="_blank">bitshares.org</a></i></small></p>
+				</center>			</div>
+								</div><!-- end .row -->
+				
 				</div>
-				</div><!-- end .row -->
 							</div><!-- end .container -->
 		</section><!-- end section#introdesc -->
 
 
-
-<!-- Exchanges Section -->
-<section id="exchanges">
-	<div id="exchanges" class="container">
-	
-		<div class="row">
-  		<div class="container">
-  		  			<center>
-  		
-  			<h2>WANT TO GET YOUR SHARE OF BITSHARESX?</h2>
-  		  <p>Visit these exchanges.</p>
-  		  </center>
-  		</div>
-		</div><!-- end .row -->
-		<div class="row" style="text-align: center; margin-top: -48px;">
-		  		<div class="container">
-		
-		  <div class="col-md-3" style="">
-		      <a target="_blank" href="https://bter.com/trade/BTSX_btc"><img src="img/ex-bter.png" class="img-responsive" alt="Bter" /></a>
-		  </div>
-		  
-		  <div class="col-md-3" style="">
-		  <a target="_blank" href="http://www.btc38.com/trade_en.html?mk_type=btc&btc38_trade_coin_name=btsx"><img src="img/ex-btc38.png" class="img-responsive" alt="BTC38" /></a>
-		  </div>
-		  
-		  <div class="col-md-3" style="">
-		   <a target="_blank" href="https://www.poloniex.com/exchange/btc_btsx"> <img src="img/ex-poloniex.png" class="img-responsive" alt="Poloniex" /></a>
-		  </div>
-		  
-  		<div class="col-md-3" style="">
-  			 <a target="_blank" href="https://coinport.com/trade#/BTSX-BTC"><img src="img/ex-coinport.png" class="img-responsive" alt="Coinport" /></a>
-  		</div>
-  		
-  
-		</div><!-- end .row -->
-		</div>
-		</div>
-		
-		</div><!-- end .container -->
-</section><!-- end section#introdesc -->
 
 
 		<!-- Wallet Section -->
@@ -262,11 +233,11 @@ BitSharesX is peer to peer.  That means when you send or receive you are doing s
 Imagine all the properties that make Bitcoin so revolutionary combined with the price stability of the dollar. This is bitUSD, the first truly stable crypto-currency and only available on BitSharesX. 				</p>
 			</div><!-- end .service -->
 
-				<div class="col-3 col-sm-4 col-lg-3 ">
+				<div class="col-3 col-sm-4 col-lg-4 ">
 				<h3><i class="icon-theatre"></i></h3>
 							<h3>PRIVACY</h3>
 							<p>
-		BitSharesX uses TITAN, which provides both greater use-of-use and more anonymity than Bitcoin. </p>
+		BitSharesX uses TITAN (Transfer Invisibly To A Name), which provides both greater use-of-use and more anonymity than Bitcoin.  Give someone a name you’ve registered and there’s no longer any need for public keys.</p>
 								</div><!-- end .service -->
 								</div>
 					</div><!-- end .row -->
@@ -274,15 +245,53 @@ Imagine all the properties that make Bitcoin so revolutionary combined with the 
 </section><!-- end section#features -->
 
 
-  
+  <!-- Exchanges Section -->
+  <section id="exchanges">
+  	<div id="exchanges" class="container">
+  	
+  		<div class="row">
+    		<div class="container">
+    		  			<center>
+    		
+    			<h2>WANT TO GET YOUR SHARE OF BITSHARESX?</h2>
+    		  <p>Visit these exchanges.</p>
+    		  </center>
+    		</div>
+  		</div><!-- end .row -->
+  		<div class="row" style="text-align: center; margin-top: -48px;">
+  		  		<div class="container">
+  		
+  		  <div class="col-md-3" style="">
+  		      <a target="_blank" href="https://bter.com/trade/BTSX_btc"><img src="img/ex-bter.png" class="img-responsive" alt="Bter" /></a>
+  		  </div>
+  		  
+  		  <div class="col-md-3" style="">
+  		  <a target="_blank" href="http://www.btc38.com/trade_en.html?mk_type=btc&btc38_trade_coin_name=btsx"><img src="img/ex-btc38.png" class="img-responsive" alt="BTC38" /></a>
+  		  </div>
+  		  
+  		  <div class="col-md-3" style="">
+  		   <a target="_blank" href="https://www.poloniex.com/exchange/btc_btsx"> <img src="img/ex-poloniex.png" class="img-responsive" alt="Poloniex" /></a>
+  		  </div>
+  		  
+    		<div class="col-md-3" style="">
+    			 <a target="_blank" href="https://coinport.com/trade#/BTSX-BTC"><img src="img/ex-coinport.png" class="img-responsive" alt="Coinport" /></a>
+    		</div>
+    		
+    
+  		</div><!-- end .row -->
+  		</div>
+  		</div>
+  		
+  		</div><!-- end .container -->
+  </section><!-- end section#Exchanges -->
 
 		
 		<footer >
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 animated fadeInDown preserveHidden" style="margin-top: -24px;"><center>
+					<div class="col-lg-4 animated fadeInDown preserveHidden" style="margin-top: -2px;">
 					<h6  style="opacity: 0.6; font-weight: 100;">2014 DAC Sun Limited</h6>
-									</center>		</div>				
+										</div>				
 				</div><!-- end .row -->
 			</div><!-- end .container -->
 		</footer><!-- end footer -->
