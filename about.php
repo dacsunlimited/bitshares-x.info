@@ -95,7 +95,7 @@
 			</header><!-- end header -->
 			<div class="container">
 				<div class="row introduction about-intro" style="margin-top: 32  px;">
-					<h1 class="about-intro animated fadeInDown preserveHidden" style="text-transform: uppercase;">Your Own Personal <br>Fort Kno<img style="margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " /></h1>
+					<h1 class="about-intro animated fadeInDown preserveHidden" style="text-transform: uppercase;">Your Own Personal <br>Fort Kno<img  style="height: 58px;margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " /></h1>
 <!--										<a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>-->
 					
 					<h6 class="animated fadeIn preserveHidden">finance - banking - trading </h6>
