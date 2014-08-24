@@ -128,11 +128,12 @@
 					<center>
 				<p>Today many people have lost faith in the financial institutions we’ve trusted for centuries. Some of our largest banks have failed and no longer exist.  Those that survived needed massive bailouts. Citizens in some countries have lost their life savings to pay for failed government decisions.  And for those who do find safety, the value of their savings is being drained by the constant drip of inflation.  Our financial system is overdue for a reset.   
 								</p>
-		  <br><br><br /> 
-				<h2>- A new World -</h2>
+		
+				<h2 style="margin: 48px 0 48px 0;">- A new World -</h2>
+				
 												<center>
 				
-				<p>What if we were to scrap it all and start over?  What would a new financial world look like?  A world where we could protect what’s valuable without needing to trust anyone. A world that will never need bailouts.  A world where your financial life is absolutely private. Where your funds can never be seized or your account closed.   A world not limited by borders, business hours, or location.  What would be possible if we could create this kind of world? We can. 
+				<p>What if we were to scrap it all and start over?  What would a new financial world look like?  A world where we could protect what’s valuable without needing to trust anyone. A world that will never need bailouts.  A world where your financial life is absolutely private. Where your funds can never be seized or your account closed.   A world not limited by borders, business hours, or location.  What would be possible if we could create this kind of world?
 				</p>
 				<p>Welcome to the new financial world of BitSharesX. BitSharesX is the world’s first virtual vault.  This is a vault where only you have the key.  BitSharesX allows you to buy, sell and trade all kinds of virtual assets that track the value of real world items like dollars, gold, silver and even shares of companies.  They can all be bought, sold or traded right in your BitSharesX account, with anyone on earth, at any time, instantly.   
 				</p><br /> <br /> 
