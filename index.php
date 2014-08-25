@@ -114,6 +114,8 @@
 					</h6>
 					<a href="about.php"   class=" animated fadeIn  btn whoabtn">Learn more</a>
 								</div>	</div><!-- end .row -->
+				
+							
 			</div><!-- end .container -->
 		</section><!-- end section.intro -->
 

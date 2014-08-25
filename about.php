@@ -119,6 +119,13 @@
 				</div><!-- end .navbar-collapse .collaspse -->
 			</div><!-- end .container -->
 		</div><!-- end .navbar -->
+<div class="row" style="margin-top: -124px;">
+<center>
+<a target="_blank" href="https://adventure.clickfunnels.com/bitshares-webinar-registration"><img  src="img/btn-webinars.png" /></a>
+<p class="animated fadeIn preserveHidden">Looking to get started with BitShares?<br>
+Join us this Thursday, Aug 28th for a free webinar!</p>
+</center>
+</div>		
 
 		<!-- Introdesc Section -->
 		<section id="work">
@@ -140,6 +147,7 @@
 				<p>And the best part is, BitSharesX is free.<br /> Ready to get started?</p>
 				<p><a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>
 				</p><br /> <br />
+				
 				<p><small><i>BitSharesX is powered by BitShares, an open source technology.
 				Learn more at <a href="http://www.bitshares.org" target="_blank">bitshares.org</a></i></small></p>
 				</center>			</div>
