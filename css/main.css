@@ -342,7 +342,7 @@ header.headerDark .darkLogoBorder {
   }
 }
 
-
+ 
 /* MAIN STYLES
 ------------------------------------------------------
 --------------------------------------------------- */
@@ -361,7 +361,7 @@ body.home {
 body.about
 
 #about-intro {
-       background: url('../img/aboutBG.jpg') center center / cover no-repeat;
+       background: url('../img/aboutBG1.jpg') center center / cover no-repeat;
    
   }
 
