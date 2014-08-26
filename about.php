@@ -77,8 +77,8 @@
                         						  </div><!-- end .modal-header -->
                         						      <div class="modal-body">
                                                        						      			<div class="row">
-                        						      			<a href="/files/wallet/0.4.8/BitSharesX-0.4.8.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitSharesX for Windows</a>
-                        						      			<a href="/files/wallet/0.4.8/BitSharesX-0.4.8.dmg" class="whoabtn" >BitSharesX for MAC</a>
+                        						      			<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitSharesX for Windows</a>
+                        						      			<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.dmg" class="whoabtn" >BitSharesX for MAC</a>
                         						      			           </div> 						      		</div><!-- end .modal-body -->
                                       				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
              
@@ -167,8 +167,8 @@
 							possible with BitSharesX.  Your
 							one stop shop for cryptoequities
 							and bitassets. 	</p>
-							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
+							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
 							
 												
 					</div><!-- end .aboutUsContent -->
