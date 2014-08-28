@@ -3,7 +3,6 @@
    your css style links in the head of every html document. */
 
 @import url('bootstrap.css');
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Roboto:400,300,700);
 
 
 /* ---------------------------------------------------
@@ -42,7 +41,9 @@ html {
   font-size: 100%;
   position: relative;
   min-height: 100%;
-}
+
+  }
+  
 body {
   background-color: #ffffff;
   font-family: 'Lato', san-serif;
