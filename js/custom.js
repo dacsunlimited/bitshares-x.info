@@ -1,46 +1,6 @@
 
 $(document).ready(function() {
 
-  // Scrolling navigation
-  $('ul.nav').onePageNav ({
-    currentClass: 'current',
-    changeHash: false,
-    scrollSpeed: 750,
-    scrollOffset: 50,
-    scrollThreshold: 0.5,
-    filter: '',
-    easing: 'swing',
-    begin: function() {
-    //I get fired when the animation is starting
-    },
-    end: function() {
-    //I get fired when the animation is ending
-    },
-    scrollChange: function($currentListItem) {
-    // Do something
-    }
-  });
-
-	// Sticky navigation
-	$(".navbar").sticky ({ topSpacing: 0 });
-
-	// Adds style to sticky navigation
-	$('.navbar').waypoint(function() {
-		$('.navbar').addClass('navBg');
-	});
-
-  // Auto hides navigation for mobile screen after list is selected
-  if ($(window).width()<=767) {
-    // Fixes scroll offset for mobile screens
-    $('ul.nav').onePageNav ({
-      scrollOffset: 0
-    });
-    // Hides navigation menu after an list item is seleted
-    $('.navbar-collapse').click('li', function() {
-      $('.navbar-collapse').collapse('hide');
-    });
-  }
-	
   // Tooltip
   $('.example').tooltip();
 

@@ -243,6 +243,25 @@ header .loginLink {
 header .loginLink:hover {
   color: #eeeeee;
 }
+
+.btsx-nav {
+}
+
+ul.btsx-nav  {
+  color: #FFF;
+}
+
+ul.btsx-nav  li, ul.btsx-nav  li a {
+  color: #FFF;
+  text-transform: uppercase;
+  float: left;
+  font-size: 13px;
+}
+
+ul.btsx-nav  li:hover, ul.btsx-nav  li a:hover {
+  background: none;
+}
+
 .navbar {
   border: none;
   border-radius: 0;
@@ -265,7 +284,7 @@ header .loginLink:hover {
 .navbar ul.navbar-nav li a {
   background-color: transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  color: #bfbfbf;
+  color: #FFF;
   font-size: 13.6px;
   font-size: 0.85rem;
   padding: 0;
@@ -1207,7 +1226,10 @@ span.valid {
 --------------------------------------------------- */
 @media (max-width: 480px) {
 
-
+.navbar-brand img {
+ 
+   margin-left: 30%;
+}
 
 .introContent {
   margin-top: 64px;

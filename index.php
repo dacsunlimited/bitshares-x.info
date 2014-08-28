@@ -21,9 +21,9 @@
 		<!-- Icon styles (Font Awesome) -->
 		<link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/btsx.css">
+   <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/btsx-ie7.css"><![endif]-->
 		<!-- Google Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	    <!--[if lt IE 9]>
@@ -59,54 +59,11 @@
 		
 		<!-- Section Home  -->
 		<section id="home" class="intro ">
-			<header>
-				<div class="container">
-					<div class="row topNav">
-						<a class="navbar-brand" href="index.php"><img src="img/btsx-logo-w.svg" alt="" width="160" /></a>
-<!--						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>-->
-						
-						<!-- Button trigger modal -->
-						
-            <a href="#" style="background: none;" class="loginLink pull-right" data-toggle="modal" data-target="#walletModal">
-              DOWNLOAD
-            </a>
-         
-            <!-- Modal -->	
-            						<div class="modal fade download" id="walletModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-            				           						  	 	 	   
-            						  	<div class="modal-dialog">
-            						  	<center> 
-            						   <button  style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"> <img  src="img/btsx-ico-w.svg" width="48" alt="BitShares X Logo " /></button> 
-            						  	
-            						  <h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download BitSharesX</h1>  
-            						              						   
-            						  
-            						    	<div class="modal-content">
-            						      		<div class="modal-header">
-            						     		</div><!-- end .modal-header -->
-            						      		<div class="modal-body">
-                                           						      			<div class="row">
-            						      			<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-            						      			<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.dmg" class="whoabtn" >BitsharesX for MAC</a>
-            						      			           </div> 						      		</div><!-- end .modal-body -->
-                                        				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
-  
-            						    	</div><!-- end .modal-content -->
-            						  	</div><!-- end .modal-dialog -->
-            						  	</center>
-            						</div><!-- end #model -->
-            
-              
-            
-						<!-- links -->
-						<a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="pull-right loginLink">WIKI</a>
-						
-						<a href="about.php" class="pull-right loginLink">about</a>
-				
-				    </div><!-- end .row .topNav -->
-				</div><!-- end .container -->
-			</header><!-- end header -->
-			<div class="container introContent">
+		
+		<!-- Navigation Include -->
+		  <?php include('nav.php'); ?>
+		
+					<div class="container introContent">
 				<div class="row introduction">
 				<div style="margin-top: 32px;">
 					<h1 class="animated fadeInDown preserveHidden">Step outside the bo<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.</h1>
