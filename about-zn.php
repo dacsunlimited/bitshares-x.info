@@ -41,7 +41,7 @@
 
 		</head> 
  
-	<body class="about"  data-spy="scroll" data-target=".navbar" data-offset="53">
+	<body class="about"  data-spy="scroll" data-target=".navbar" data-offset="53" style="width: 100%;overflow-x: hidden;">
 		
 		<!-- Section Home -->
 		<section id="about-intro" class="about intro" style="height: 520px">
