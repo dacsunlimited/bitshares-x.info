@@ -22,6 +22,8 @@
 		<!-- Icon styles (Font Awesome) -->
 		<link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/btsx.css">
+       <link rel="stylesheet" href="css/fonts.css">
+    
     <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/btsx-ie7.css"><![endif]-->
 		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Roboto:400,300,700' rel='stylesheet' type='text/css'>
@@ -56,44 +58,11 @@
 		
 		<!-- Section Home -->
 		<section id="about-intro" class="about intro" style="height: 520px">
-			<header>
-				<div class="container">
-					<div class="row topNav">
-						<a class="navbar-brand" href="index.php"><img src="img/btsx-logo-w.svg" alt="" width="160" /></a>
-<!--						<a href="https://github.com/dacsunlimited/BitSharesX/" class="pull-right loginLink" target="_blank"><i class="icon-github-circled-alt2"></i></a>-->
-        <!-- Button trigger modal -->
-        		
-           <a href="#" style="background: none;" class="loginLink pull-right" data-toggle="modal" data-target="#walletModal">
-             DOWNLOAD
-           </a>
-              <!-- Modal -->	
-               	<div class="modal fade download" id="walletModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
-                   <div class="modal-dialog">
-                      <center> 
-                        <button  style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"> <img  src="img/btsx-ico-w.svg" width="48" alt="BitSharesX Logo " /></button> 
-                        	<h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download BitSharesX</h1>  
-                        			<div class="modal-content">
-                        					<div class="modal-header">
-                        						  </div><!-- end .modal-header -->
-                        						      <div class="modal-body">
-                                                       						      			<div class="row">
-                        						      			<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.exe" class=" whoabtn" style="margin: 0 24px 12px 0;">BitSharesX for Windows</a>
-                        						      			<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.dmg" class="whoabtn" >BitSharesX for MAC</a>
-                        						      			           </div> 						      		</div><!-- end .modal-body -->
-                                      				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
-             
-                        						    	</div><!-- end .modal-content -->
-                        						  	</div><!-- end .modal-dialog -->
-                        						   	</center>
-                        						</div><!-- end #model -->
-                                        					<!-- links -->
-					<a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="pull-right loginLink">WIKI</a>
-					
-					<a href="about.php" class="pull-right loginLink">about</a>				
-				    </div><!-- end .row .topNav -->
-				</div><!-- end .container -->
-			</header><!-- end header -->
-			<div class="container">
+			
+			<!-- Navigation Include -->
+			 <?php include('nav.php'); ?>
+			
+						<div class="container">
 				<div class="row introduction about-intro" style="margin-top: 32  px;">
 					<h1 class="about-intro animated fadeInDown preserveHidden" style="text-transform: uppercase;">Your Own Personal <br>Fort Kno<img  style="height: 58px;margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " /></h1>
 <!--										<a href="#" class="whoabtn btn animated fadeIn preserveHidden" data-toggle="modal" data-target="#walletModal">Download now </a>-->
@@ -119,7 +88,7 @@
 				</div><!-- end .navbar-collapse .collaspse -->
 			</div><!-- end .container -->
 		</div><!-- end .navbar -->
-<div class="row" style="margin-top: -124px;">
+<div class="row" style="margin-top: -96px;">
 <center>
 <a target="_blank" href="https://adventure.clickfunnels.com/bitshares-webinar-registration"><img  src="img/btn-webinars.png" /></a>
 <p class="animated fadeIn preserveHidden">Looking to get started with BitShares?<br>
@@ -175,8 +144,8 @@ Join us this Thursday, Aug 28th for a free webinar!</p>
 							possible with BitSharesX.  Your
 							one stop shop for cryptoequities
 							and bitassets. 	</p>
-							<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-							<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
+							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
 							
 												
 					</div><!-- end .aboutUsContent -->
@@ -270,20 +239,28 @@ Imagine all the properties that make Bitcoin so revolutionary combined with the 
   		<div class="row" style="text-align: center; margin-top: -48px;">
   		  		<div class="container">
   		
-  		  <div class="col-md-3" style="">
+  		  <div class="col-md-3 col-sm-6" style="">
   		      <a target="_blank" href="https://bter.com/trade/BTSX_btc"><img src="img/ex-bter.png" class="img-responsive" alt="Bter" /></a>
   		  </div>
   		  
-  		  <div class="col-md-3" style="">
+  		  <div class="col-md-3 col-sm-6" style="">
   		  <a target="_blank" href="http://www.btc38.com/trade_en.html?mk_type=btc&btc38_trade_coin_name=btsx"><img src="img/ex-btc38.png" class="img-responsive" alt="BTC38" /></a>
   		  </div>
   		  
-  		  <div class="col-md-3" style="">
+  		  <div class="col-md-3 col-sm-6" style="">
   		   <a target="_blank" href="https://www.poloniex.com/exchange/btc_btsx"> <img src="img/ex-poloniex.png" class="img-responsive" alt="Poloniex" /></a>
   		  </div>
   		  
-    		<div class="col-md-3" style="">
+    		<div class="col-md-3 col-sm-6" style="">
     			 <a target="_blank" href="https://coinport.com/trade#/BTSX-BTC"><img src="img/ex-coinport.png" class="img-responsive" alt="Coinport" /></a>
+    		</div>
+    		
+    		<div class="col-md-3 col-sm-6" style="">
+    			 <a target="_blank" href="https://bittrex.com/Market/Index?MarketName=BTC-BTSX"><img src="img/ex-bittrex.png" class="img-responsive" alt="Bittrex" /></a>
+    		</div>
+    		
+    		<div class="col-md-3 col-sm-6" style="">
+    			 <a target="_blank" href="https://www.altquick.co"><img src="img/ex-altquick.png" class="img-responsive" alt="Altquick.co" /></a>
     		</div>
     		
     
