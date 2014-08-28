@@ -143,8 +143,8 @@ Join us this Thursday, Aug 28th for a free webinar!</p>
 							possible with BitSharesX.  Your
 							one stop shop for cryptoequities
 							and bitassets. 	</p>
-							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
-							<a href="/files/wallet/0.4.8/BitSharesX-0.4.8-a.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
+							<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+							<a href="/files/wallet/0.4.9/BitSharesX-0.4.9.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
 							
 												
 					</div><!-- end .aboutUsContent -->
