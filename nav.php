@@ -9,6 +9,8 @@
 						<li><a href="about.php" class="">about</a></li>
 						<!-- Button trigger modal -->
 					  <li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal">DOWNLOAD</a></li>
+		        <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="">WIKI</a></li>
+
 					  <li>
         		<?php
         		if (stripos($_SERVER['REQUEST_URI'], 'about.php')){
@@ -20,7 +22,6 @@
         		?>		
 	
 		        </li>
-		        <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="">WIKI</a></li>
 					  </ul>
 				<!-- links -->
 					  </div><!-- end .row .topNav -->			
