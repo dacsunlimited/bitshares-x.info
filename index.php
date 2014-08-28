@@ -21,7 +21,7 @@
 		<!-- Icon styles (Font Awesome) -->
 		<link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/btsx.css">
-   <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/btsx-ie7.css"><![endif]-->
 		<!-- Google Fonts -->
 

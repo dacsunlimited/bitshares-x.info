@@ -25,7 +25,6 @@
    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/btsx-ie7.css"><![endif]-->
 		<!-- Google Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:300,400|Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	    <!--[if lt IE 9]>
