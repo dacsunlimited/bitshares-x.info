@@ -6,9 +6,9 @@
 						
 						<!-- links -->
 				  <ul class="nav btsx-nav pull-right">
-						<li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="">维基</a></li>
 						<li><a href="about-zn.php" class="">关于</a></li>
 				    <li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal">下载</a></li>
+				    <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="">维基</a></li>
 				    <li><?php
 				          		if (stripos($_SERVER['REQUEST_URI'], 'about-zn.php')){
 				          		     echo '<a style="opacity: 0.7;" href="about.php" >EN</a>';
