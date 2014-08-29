@@ -78,13 +78,7 @@
 				</div><!-- end .navbar-collapse .collaspse -->
 			</div><!-- end .container -->
 		</div><!-- end .navbar -->
-<div class="row" style="margin-top: -96px;">
-<center>
-<a target="_blank" href="https://adventure.clickfunnels.com/bitshares-webinar-registration"><img  src="img/btn-webinars.png" /></a>
-<p class="animated fadeIn preserveHidden">Looking to get started with BitShares?<br>
-Join us this Thursday, Aug 28th for a free webinar!</p>
-</center>
-</div>		
+	
 
 		<!-- Introdesc Section -->
 		<section id="work">
