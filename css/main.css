@@ -390,8 +390,8 @@ section#home {
 
 
 .modal.download .modal-dialog {
-    width:40%;
-    min-width: 440px;
+    width:60%;
+    min-width: 480px;
     margin: 18% auto;
     /*add what you want here*/
     border-radius: 0;
