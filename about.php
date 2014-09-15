@@ -128,7 +128,8 @@
 							possible with BitSharesX.  Your
 							one stop shop for cryptoequities
 							and bitassets. 	</p>
-							<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">BitsharesX for Windows</a>
+							<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class="pull-left whoabtn btn">BitsharesX for Windows (x86)</a><br><br>
+							<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">BitSharesX for Windows (x64)</a><br><br>
 							<a href="/files/wallet/0.4.15/BitSharesX-0.4.15.dmg" class="pull-left whoabtn btn" >BitsharesX for MAC</a>
 							
 												
