@@ -41,8 +41,8 @@
           						     		</div><!-- end .modal-header -->
           						      		<div class="modal-body">
                                          						      			<div class="row">
-          						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class=" whoabtn" >比特股X Windows版 (x86)</a><br><br>
-          						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">比特股X Windows版 (x64)</a>	<br><br>
+          						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class=" whoabtn" >比特股X Windows版 32-bit</a><br><br>
+          						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">比特股X Windows版 64-bit</a>	<br><br>
           						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15.dmg" class="whoabtn" >比特股X MAC版</a>
           						      			           </div> 						      		</div><!-- end .modal-body -->
                                       				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> 关闭</a>

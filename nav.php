@@ -43,8 +43,8 @@
              						  </div><!-- end .modal-header -->
              						      <div class="modal-body">
                                             						      			<div class="row">
-             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class=" whoabtn">BitSharesX for Windows (x86)</a><br><br>
-             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">BitSharesX for Windows (x64)</a><br><br>
+             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class=" whoabtn">BitSharesX for Windows 32-bit</a><br><br>
+             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">BitSharesX for Windows 64-bit</a><br><br>
              						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15.dmg" class="whoabtn" >BitSharesX for MAC</a><br>
              						      			           </div> 						      		</div><!-- end .modal-body -->
                            				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
