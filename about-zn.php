@@ -125,7 +125,7 @@
 							用比特股X能获得的比你想象的更多。
 							这是你的加密股份以及比特资产的
 							一站式服务窗口。</p>
-							<a href="/files/wallet/0.4.15/BitSharesX-v0.4.15-x32.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">比特股X Windows版</a>
+							<a href="/files/wallet/0.4.15/BitSharesX-a-0.4.15-x86.exe" class="pull-left whoabtn btn" style="margin: 0 24px 12px 0;">比特股X Windows版</a>
 							<a href="/files/wallet/0.4.15/BitSharesX-v0.4.15.dmg" class="pull-left whoabtn btn" >比特股X MAC版</a>
 							
 												
