@@ -37,7 +37,8 @@ $translate[ "zn" ][ "getshares" ]    = '想要获得比特股X的股份？';
 $translate[ "zn" ][ "exchanges" ]    = '请访问这些交易所。';
 
 $translate[ "zn" ][ "close" ]    = ' 关闭';
-$translate[ "en" ][ "wiki" ]    = '维基';
-$translate[ "en" ][ "download" ]    = '下载';
-$translate[ "en" ][ "downloadbtsx" ]    = '下载 BitSharesX';
+$translate[ "zn" ][ "about" ]    = '关于';
+$translate[ "zn" ][ "wiki" ]    = '维基';
+$translate[ "zn" ][ "download" ]    = '下载';
+$translate[ "zn" ][ "downloadbtsx" ]    = '下载 BitSharesX';
 ?>

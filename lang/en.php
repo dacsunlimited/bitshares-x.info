@@ -37,6 +37,7 @@ $translate[ "en" ][ "getshares" ]    = 'WANT TO GET YOUR SHARE OF BITSHARESX?';
 $translate[ "en" ][ "exchanges" ]    = 'Visit these exchanges.';
 
 $translate[ "en" ][ "close" ]    = 'close';
+$translate[ "en" ][ "about" ]    = 'about';
 $translate[ "en" ][ "wiki" ]    = 'WIKI';
 $translate[ "en" ][ "download" ]    = 'download';
 $translate[ "en" ][ "downloadbtsx" ]    = 'download BitSharesX';
