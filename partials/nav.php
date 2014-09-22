@@ -32,9 +32,9 @@
     <div class="modal-header"></div><!-- end .modal-header -->
      <div class="modal-body">
       <div class="row">
-       <a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class="whoabtn"><?=$translate[ $lang ][ "btsxwin32" ]?></a><br><br>
-       <a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn"><?=$translate[ $lang ][ "btsxwin64" ]?></a><br><br>
-       <a href="/files/wallet/0.4.15/BitSharesX-0.4.15.dmg" class="whoabtn" ><?=$translate[ $lang ][ "btsxmacos" ]?></a>
+       <a href="/files/wallet/0.4.16/BitSharesX-0.4.16-x86.exe" class="whoabtn"><?=$translate[ $lang ][ "btsxwin32" ]?></a><br><br>
+       <a href="/files/wallet/0.4.16/BitSharesX-0.4.16-x64.exe" class=" whoabtn"><?=$translate[ $lang ][ "btsxwin64" ]?></a><br><br>
+       <a href="/files/wallet/0.4.16/BitSharesX-0.4.16.dmg" class="whoabtn" ><?=$translate[ $lang ][ "btsxmacos" ]?></a>
       </div>
      </div><!-- end .modal-body -->
      <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i><?=$translate[ $lang ][ "close" ]?></a>
