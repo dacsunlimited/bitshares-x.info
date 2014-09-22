@@ -1,4 +1,4 @@
-<?
+<?php
 $translate[ "de" ][ "de" ] = "de";
 $translate[ "de" ][ "title" ] = "BitSharesX - Step outside the boX.";
 $translate[ "de" ][ "welcome" ] = 'Step outside the bo<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.';
