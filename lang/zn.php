@@ -1,4 +1,4 @@
-<?
+<?php
 $translate[ "zn" ][ "zn" ] = "中文";
 $translate[ "zn" ][ "title" ] = "BitSharesX - Step outside the boX.";
 $translate[ "zn" ][ "welcome" ] =  "跳出常规";
