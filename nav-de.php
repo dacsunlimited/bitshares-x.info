@@ -37,17 +37,17 @@
         <div class="modal-dialog">
            <center> 
              <button  style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"> <img  src="img/btsx-ico-w.svg" width="48" alt="BitSharesX Logo " /></button> 
-             	<h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">BitSharesX herunterladen</h1>  
+             	<h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">Download BitSharesX</h1>  
              			<div class="modal-content">
              					<div class="modal-header">
              						  </div><!-- end .modal-header -->
              						      <div class="modal-body">
                                             						      			<div class="row">
-             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class=" whoabtn">BitSharesX für Windows 32-bit</a><br><br>
-             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">BitSharesX für Windows 64-bit</a><br><br>
-             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15.dmg" class="whoabtn" >BitSharesX für MAC</a><br>
+             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x86.exe" class=" whoabtn">BitSharesX for Windows 32-bit</a><br><br>
+             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15-a-x64.exe" class=" whoabtn">BitSharesX for Windows 64-bit</a><br><br>
+             						      			<a href="/files/wallet/0.4.15/BitSharesX-0.4.15.dmg" class="whoabtn" >BitSharesX for MAC</a><br>
              						      			           </div> 						      		</div><!-- end .modal-body -->
-                           				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> schließen</a>
+                           				 <a style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"><i class="icon-eye-off"></i> close</a>
   
              						    	</div><!-- end .modal-content -->
              						  	</div><!-- end .modal-dialog -->
