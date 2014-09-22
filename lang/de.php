@@ -35,5 +35,9 @@ $translate[ "de" ][ "feature6_text" ]    = 'BitSharesX setzt auf TITAN (<em>Tran
 
 $translate[ "de" ][ "getshares" ]    = 'SIE WOLLEN MITMACHEN BEI BITSHARESX?';
 $translate[ "de" ][ "exchanges" ]    = 'Besuchen Sie unsere Handelspartner.';
+
 $translate[ "de" ][ "close" ]    = 'schließen';
+$translate[ "en" ][ "wiki" ]    = 'WIKI';
+$translate[ "en" ][ "download" ]    = 'herunterladen';
+$translate[ "en" ][ "downloadbtsx" ]    = 'BitSharesX herunterladen';
 ?>

@@ -8,12 +8,12 @@
    <ul class="nav btsx-nav pull-right">
     <li><a href="about.php" class="">about</a></li>
     <!-- Button trigger modal -->
-    <li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal">DOWNLOAD</a></li>
-    <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class="">WIKI</a></li>
+<li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal"><?=$translate[ $lang ][ "download" ]?></a></li>
+    <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class=""><?=$translate[ $lang ][ "wiki" ]?></a></li>
     <li>
     <?php
      foreach ($languages as $l) {
-	  if ($lang!=$l) echo '<a style="opacity: 0.7;" href="about.php?lang='.$l.'" >' . $translate[ $l ][ $l ] . '</a>';
+	  if ($lang!=$l) echo '<a style="opacity: 0.7;" href="?lang=' . $l . '" >' . $translate[ $l ][ $l ] . '</a>';
      }
     ?>  
     </li>
@@ -27,7 +27,7 @@
  <div class="modal-dialog">
   <center> 
    <button  style=" float: none;"  class="close" data-dismiss="modal" data-target="#myModal"> <img  src="img/btsx-ico-w.svg" width="48" alt="BitSharesX Logo " /></button> 
-   <h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;">BitSharesX herunterladen</h1>  
+   <h1 style="padding: 0;margin: 12px 0 2px 0;font-size: 36px;"><?=$translate[ $lang ][ "downloadbtsx" ]?></h1>  
    <div class="modal-content">
     <div class="modal-header"></div><!-- end .modal-header -->
      <div class="modal-body">

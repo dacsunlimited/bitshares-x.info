@@ -35,5 +35,9 @@ $translate[ "zn" ][ "feature6_text" ]    = '比特股X使用TITAN机制 (基于�
 
 $translate[ "zn" ][ "getshares" ]    = '想要获得比特股X的股份？';
 $translate[ "zn" ][ "exchanges" ]    = '请访问这些交易所。';
+
 $translate[ "zn" ][ "close" ]    = ' 关闭';
+$translate[ "en" ][ "wiki" ]    = '维基';
+$translate[ "en" ][ "download" ]    = '下载';
+$translate[ "en" ][ "downloadbtsx" ]    = '下载 BitSharesX';
 ?>
