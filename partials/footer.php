@@ -2,7 +2,7 @@
     <div class="container">
      <div class="row">
       <?php
-       if (stripos($_SERVER['REQUEST_URI'], 'index')){
+       if (!stripos($_SERVER['REQUEST_URI'], 'about')){
 	echo '
 	  <div class="col-lg-12 animated fadeInDown preserveHidden" style="margin-top: -24px;">
 	   <h6 style="color: #FFF; opacity: 0.6;">' . $translate[ $lang ][ "footer_poweredby" ] . '</h6>

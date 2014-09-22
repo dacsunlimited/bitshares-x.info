@@ -8,7 +8,7 @@
    <ul class="nav btsx-nav pull-right">
     <li><a href="about.php" class=""><?=$translate[ $lang ][ "about" ]?></a></li>
     <!-- Button trigger modal -->
-<li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal"><?=$translate[ $lang ][ "download" ]?></a></li>
+    <li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal"><?=$translate[ $lang ][ "download" ]?></a></li>
     <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class=""><?=$translate[ $lang ][ "wiki" ]?></a></li>
     <li>
     <?php
