@@ -13,7 +13,7 @@
     <li>
     <?php
      foreach ($languages as $l) {
-	  if ($lang!=$l) echo '<a style="opacity: 0.7;" href="about.php?lang=$l" >' . $translate[ $l ][ $l ] . '</a>';
+	  if ($lang!=$l) echo '<a style="opacity: 0.7;" href="about.php?lang='.$l.'" >' . $translate[ $l ][ $l ] . '</a>';
      }
     ?>  
     </li>
