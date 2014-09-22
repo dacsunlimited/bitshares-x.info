@@ -1,7 +1,9 @@
 <?
 $translate[ "zn" ][ "zn" ] = "中文";
 $translate[ "zn" ][ "title" ] = "BitSharesX - Step outside the boX.";
+$translate[ "zn" ][ "welcome" ] =  "跳出常规";
 $translate[ "zn" ][ "subtitle" ] = "交易加密股份，并同时具备安全、隐秘、以及快速的特性。";
+$translate[ "zn" ][ "supertitle" ] = "*诺克斯堡为美国国库黄金存放处, 亦为一陆军基地";
 $translate[ "zn" ][ "learnmore" ] = "了解更多";
 $translate[ "zn" ][ "about_headline" ] = '专属你个人的 <br>诺克斯堡*';
 $translate[ "zn" ][ "about_subtitle" ] = "金融 - 银行 - 交易 ";
@@ -41,4 +43,5 @@ $translate[ "zn" ][ "about" ]    = '关于';
 $translate[ "zn" ][ "wiki" ]    = '维基';
 $translate[ "zn" ][ "download" ]    = '下载';
 $translate[ "zn" ][ "downloadbtsx" ]    = '下载 BitSharesX';
+$translate[ "zn" ][ "footer_poweredby" ]    = '<span>由</span><a href="http://www.bitshares.org" target="_blank"><img style="margin: -18px 0 0 0px;" src="img/bts-logo-ico.svg" alt="BitShares Logo Icon" width="32"> 所打造</a>';
 ?>

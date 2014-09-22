@@ -5,6 +5,7 @@
  <?php include('partials/nav.php'); ?>
  <div class="container">
   <div class="row introduction about-intro" style="margin-top: 32  px;">
+  <small class="animated fadeInDown "><?=$translate[ $lang ][ "supertitle" ]?></small>
   <h1 class="about-intro animated fadeInDown preserveHidden" style="text-transform: uppercase;"><?=$translate[ $lang ][ "about_headline" ]?></h1>
    <h6 class="animated fadeIn preserveHidden"><?=$translate[ $lang ][ "about_subtitle" ]?></h6>
   </div><!-- end .row -->

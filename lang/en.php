@@ -1,7 +1,9 @@
 <?
 $translate[ "en" ][ "en" ] = "en";
 $translate[ "en" ][ "title" ] = "BitSharesX - Step outside the boX.";
+$translate[ "en" ][ "welcome" ] = 'Step outside the bo<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.';
 $translate[ "en" ][ "subtitle" ] = "Trade crypto equities with security, privacy and speed.";
+$translate[ "en" ][ "supertitle" ] = "";
 $translate[ "en" ][ "learnmore" ] = "Learn more";
 $translate[ "en" ][ "about_headline" ] = 'Your Own Personal <br>Fort Kno<img  style="height: 58px;margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />';
 $translate[ "en" ][ "about_subtitle" ] = "finance - banking - trading";
@@ -41,4 +43,5 @@ $translate[ "en" ][ "about" ]    = 'about';
 $translate[ "en" ][ "wiki" ]    = 'WIKI';
 $translate[ "en" ][ "download" ]    = 'download';
 $translate[ "en" ][ "downloadbtsx" ]    = 'download BitSharesX';
+$translate[ "en" ][ "footer_poweredby" ]    = '<span>powered by </span> <a href="http://www.bitshares.org" target="_blank"><img style="margin: -18px 0 0 12px;" src="img/bts-logo-ico.svg" width="32" alt="BitShares Logo Icon" /></a>';
 ?>

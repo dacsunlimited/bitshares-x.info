@@ -1,12 +1,22 @@
    <footer>
     <div class="container">
      <div class="row">
-      <div class="col-lg-4 animated fadeInDown preserveHidden" style="margin-top: -2px;">
-       <h6  style="opacity: 0.6; font-weight: 100;">2014 DAC Sun Limited</h6>
-      </div>    
-     </div><!-- end .row -->
-    </div><!-- end .container -->
-   </footer><!-- end footer -->
+      <?php
+       if (stripos($_SERVER['REQUEST_URI'], 'index')){
+	echo '
+	  <div class="col-lg-12 animated fadeInDown preserveHidden" style="margin-top: -24px;">
+	   <h6 style="color: #FFF; opacity: 0.6;">' . $translate[ $lang ][ "footer_poweredby" ] . '</h6>
+	  </div>';
+	} else {
+	echo '
+	  <div class="col-lg-4 animated fadeInDown preserveHidden" style="margin-top: -2px;">
+	   <h6  style="opacity: 0.6; font-weight: 100;">2014 DAC Sun Limited</h6>
+	  </div>';
+       }
+      ?>
+    </div><!-- end .row -->
+   </div><!-- end .container -->
+  </footer><!-- end footer -->
   <!-- Le javascript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
