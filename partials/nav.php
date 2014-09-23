@@ -10,15 +10,23 @@
     <!-- Button trigger modal -->
     <li><a href="#" style="background: none;" class="" data-toggle="modal" data-target="#walletModal"><?=$translate[ $lang ][ "download" ]?></a></li>
     <li><a href="http://wiki.bitshares.org/index.php/Bitshares_X" target="_blank" class=""><?=$translate[ $lang ][ "wiki" ]?></a></li>
-    <li>
-    <?php
-     foreach ($languages as $l) {
-	  if ($lang!=$l) echo '<a style="opacity: 0.7;" href="?lang=' . $l . '" >' . $translate[ $l ][ $l ] . '</a>';
-     }
-    ?>  
-    </li>
-
+ 
+ <div class="btn-group" style="margin: 7px 0 0 8px;">
+           <button class="btn btn-default btn-xs dropdown-toggle btn-lang" type="button" data-toggle="dropdown"> <?=$lang?>  <span class="caret"></span> </button>
+            
+          
+           <ul class="dropdown-menu language-switch" role="menu">
+            <?php
+             foreach ($languages as $l) {
+            if ($lang!=$l) echo '<li><a style="opacity: 0.7;" href="?lang=' . $l . '" >' . $translate[ $l ][ $l ] . '</a></li><br>';
+             }
+            ?>  
+           </ul>
+         </div>
    </ul><!-- links -->
+        
+      
+ 
   </div><!-- end .row .topNav -->
  </div><!-- end .container -->
 </header><!-- end header -->
