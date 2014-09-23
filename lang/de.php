@@ -15,7 +15,7 @@ $translate[ "de" ][ "about_best" ] = "Und das beste ist: Die Software BitSharesX
 $translate[ "de" ][ "downloadnow" ] = "Jetzt herunterladen";
 $translate[ "de" ][ "poweredby" ] = 'BitSharesX basiert auf BitShares, einer quell offenen Technologie.  Erfahren Sie mehr auf <a href="http://www.bitshares.org" target="_blank">bitshares.org</a>';
 $tranlsate[ "de" ][ "freemarkets"] = "FREIE MÄRKTE. FREIE SOFTWARE.";
-$translate[ "de" ][ "getmore" ]    = 'Laden Sie Ihr persönlichen Tresor, Ihr eigenes persönliches Fort Knox herunter';
+$translate[ "de" ][ "getmore" ]    = 'Hier kostenlos herunterladen.';
 $translate[ "de" ][ "btsxwin32" ]    = 'BitsharesX für Windows 32-bit';
 $translate[ "de" ][ "btsxwin64" ]    = 'BitSharesX für Windows 64-bit';
 $translate[ "de" ][ "btsxmacos" ]    = 'BitsharesX für MAC';
