@@ -61,9 +61,9 @@
     <div class="col-md-4 col-lg-4 aboutUsContent">
      <h2><?=$tranlsate[ $lang ][ "freemarkets"]?></h2>
      <p><?=$translate[ $lang ][ "getmore" ]?></p>
-     <a href="/files/wallet/0.4.16/BitSharesX-0.4.16-x86.exe" class="pull-left whoabtn btn"><?=$translate[ $lang ][ "btsxwin32" ]?></a><br><br>
-     <a href="/files/wallet/0.4.16/BitSharesX-0.4.16-x64.exe" class=" whoabtn"><?=$translate[ $lang ][ "btsxwin64" ]?></a><br><br>
-     <a href="/files/wallet/0.4.16/BitSharesX-0.4.16.dmg" class="pull-left whoabtn btn" ><?=$translate[ $lang ][ "btsxmacos" ]?></a>
+     <a href="/files/wallet/0.4.17/BitSharesX-0.4.17-x86.exe" class="pull-left whoabtn btn"><?=$translate[ $lang ][ "btsxwin32" ]?></a><br><br>
+     <a href="/files/wallet/0.4.17/BitSharesX-0.4.17-x64.exe" class=" whoabtn"><?=$translate[ $lang ][ "btsxwin64" ]?></a><br><br>
+     <a href="/files/wallet/0.4.17/BitSharesX-0.4.17.dmg" class="pull-left whoabtn btn" ><?=$translate[ $lang ][ "btsxmacos" ]?></a>
    </div><!-- end .aboutUsContent -->
   </div><!-- end .row -->
  </div><!-- end .container --> 
