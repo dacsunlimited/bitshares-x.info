@@ -189,6 +189,7 @@ blockquote:after {
   text-transform: uppercase;
   -webkit-transition: background-color 0.3s ease-in;
   transition: background-color 0.3s ease-in;
+  white-space:nowrap;
 }
 .whoabtn:hover {
   background-color: #333333;
