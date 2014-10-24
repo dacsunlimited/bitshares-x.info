@@ -3,8 +3,9 @@ include( "lang/en.php" );
 include( "lang/zn.php" );
 include( "lang/de.php" );
 include( "lang/nl.php" );
+include( "lang/fr.php" );
 
-$languages = ["en", "zn" , "de", "nl" ];
+$languages = ["en", "zn" , "de", "nl", "fr" ];
 
 session_start();
 if (isset($_GET['lang']) && $_GET['lang']!='') {
