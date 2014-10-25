@@ -1,5 +1,5 @@
 <?php
-$translate[ "fr" ][ "fe" ] = "fr";
+$translate[ "fr" ][ "fr" ] = "fr";
 $translate[ "fr" ][ "title" ] = "BitSharesX - Step outside the boX.";
 $translate[ "fr" ][ "welcome" ] = 'Step outside the bo<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.';
 $translate[ "fr" ][ "subtitle" ] = "Échangez des actifs financiers avec sécurité, anonymat et rapidité";
