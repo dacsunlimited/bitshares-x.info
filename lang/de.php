@@ -11,7 +11,7 @@ $translate[ "de" ][ "about_textA" ] = "Die letzte Bankenkrise hat gezeigt wie fr
 $translate[ "de" ][ "about_newworld" ] = "- Eine neue Welt -";
 $translate[ "de" ][ "about_textB" ] = "Was wäre, wenn wir alles hinter uns lassen könnten, um von Vorne anzufangen? Wie würde die neue Finanzwelt aussehen? Eine Welt, in dem unsere Vermögen geschützt sind, ohne irgendjemandem Vertrauen zu müssen. Eine Welt, die keinen Rettungschirm braucht. Eine Welt, in der ihre Finanzen absolut vertraulich sind, nichts je gepfändet oder ihr Bankkonto geschlossen werden kann. Eine Welt, die keine Grenzen, Öffnungszeiten oder Ortsgebundenheiten kennt. Was wäre alles möglich, wenn wir eine solche Welt erschaffen könnten?";
 $translate[ "de" ][ "about_textC" ] = "BitSharesX ist der Welt erstes virtuelles Hochsicherheits-Schließfach. Ein Schließfach für das nur Sie den Schlüssel haben. BitSharesX erlaubt es Ihnen Derivate die den Preis von Euro, Gold, Silber, Aktien oder Indizes abbilden zu halten und zu handeln. Der Kauf und Verkauf erfolgt direkt mit Ihrem BitSharesX Konto, weltweit, zu jeder Zeit und unverzüglich.";
-$translate[ "de" ][ "about_best" ] = "Die Nutzung von BitSharesX ist kostenlos und <br />es fallen nur minimale Hanselgebühren an!";
+$translate[ "de" ][ "about_best" ] = "Die Nutzung von BitSharesX ist kostenlos und <br />es fallen nur minimale Handelsgebühren an!";
 $translate[ "de" ][ "downloadnow" ] = "Jetzt herunterladen";
 $translate[ "de" ][ "poweredby" ] = 'BitSharesX basiert auf BitShares, einer quell-offenen Technologie.  Erfahren Sie mehr auf <a href="http://www.bitshares.org" target="_blank">bitshares.org</a>';
 $tranlsate[ "de" ][ "freemarkets"] = "DEZENTRALE HANDELSPLATTFORM";
