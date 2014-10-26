@@ -31,7 +31,7 @@ $translate[ "en" ][ "feature3_text" ]    = 'Financial tools are nothing without 
 $translate[ "en" ][ "feature4" ]         = 'DIRECT';
 $translate[ "en" ][ "feature4_text" ]    = 'BitSharesX is peer to peer.  That means when you send or receive you are doing so directly with the person on the other end.  No middlemen to get in the way, no middlemen to take a cut.  Go direct.';
 $translate[ "en" ][ "feature5" ]         = 'STABILITY';
-$translate[ "en" ][ "feature5_text" ]    = 'Imagine all the properties that make Bitcoin so revolutionary combined with the price stability of the dollar. This is bitUSD, the first truly stable crypto-currency and only available on BitSharesX.';
+$translate[ "en" ][ "feature5_text" ]    = 'Imagine all the properties that make Bitcoin so revolutionary combined with the price stability of the dollar. This is bitUSD, the first truly stable crypto-currency without a central counterparty and only available on BitSharesX.';
 $translate[ "en" ][ "feature6" ]         = 'PRIVACY';
 $translate[ "en" ][ "feature6_text" ]    = 'BitSharesX uses TITAN (Transfer Invisibly To A Name), which provides both greater use-of-use and more anonymity than Bitcoin.  Give someone a name you’ve registered and there’s no longer any need for public keys.';
 
