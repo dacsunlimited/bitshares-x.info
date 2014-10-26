@@ -2,15 +2,15 @@
 $translate[ "de" ][ "de" ] = "de";
 $translate[ "de" ][ "title" ] = "BitSharesX - Step outside the boX.";
 $translate[ "de" ][ "welcome" ] = 'BitShares<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.';
-$translate[ "de" ][ "subtitle" ] = "Handeln Sie weltweit virtuelle Anlagegüter vertraulich, sicher und in Echtzeit.";
+$translate[ "de" ][ "subtitle" ] = "Handeln Sie virtuelle Anlagegüter vertraulich, sicher und in Echtzeit.";
 $translate[ "dn" ][ "supertitle" ] = "";
 $translate[ "de" ][ "learnmore" ] = "Mehr erfahren";
 $translate[ "de" ][ "about_headline" ] = 'Ihr persönliches <br>Fort Kno<img  style="height: 58px;margin-top: -14px;"  src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />';
 $translate[ "de" ][ "about_subtitle" ] = "Finanzen - Bankgeschäfte - Handel";
 $translate[ "de" ][ "about_textA" ] = "Die letzte Bankenkrise hat gezeigt wie fragil unser heutiges Bankensystem und wie teuer das Aufrechterhalten dieser zentral gesteuerten Strukturen ist. Bürger in vielen Ländern müssen aufgrund der milliardenschweren Rettungsschirme nun eine erheblich höhere Steuerlast tragen. Anleger und Sparer bangen durch anhaltend niedrige Zinsen, sowie dem stetigen Fluss an neuem billigen Geld der Zentralbanken um ihr Vermögen. Es ist Zeit für einen Neuanfang.";
 $translate[ "de" ][ "about_newworld" ] = "- Eine neue Welt -";
-$translate[ "de" ][ "about_textB" ] = "Was, wenn wir alles hinter uns lassen könnten, um von Vorne anzufangen? Wie würd die neue Finanzwelt aussehen? Eine Welt, in dem unsere Vermögen geschützt sind ohne irgendjemandem Vertrauen zu müssen. Eine Welt, die keinen Rettungschirm braucht. Eine Welt, in der ihre Finanzen absolut vertraulich sind, nichts je gepfändet oder ihr Bankkonto geschlossen werden kann. Eine Welt, die keine Grenzen, Öffnungszeiten oder Ortsgebundenheiten kennt. Was wäre alles möglich, wenn wir eine solche Welt erschaffen könnten?";
-$translate[ "de" ][ "about_textC" ] = "BitSharesX ist der Welt erstes virtuelles Schließfach. Ein Schließfach für das nur Sie den Schlüssel haben. BitSharesX erlaubt es Ihnen Derivate zu halten und zu handeln, die den Preis von Euro, Gold, Silber, Aktien oder Indizes abbilden. Der Kauf und Verkauf erfolgt direkt mit Ihrem BitSharesX Konto, weltweit, zu jeder Zeit und unverzüglich.";
+$translate[ "de" ][ "about_textB" ] = "Was wäre, wenn wir alles hinter uns lassen könnten, um von Vorne anzufangen? Wie würde die neue Finanzwelt aussehen? Eine Welt, in dem unsere Vermögen geschützt sind, ohne irgendjemandem Vertrauen zu müssen. Eine Welt, die keinen Rettungschirm braucht. Eine Welt, in der ihre Finanzen absolut vertraulich sind, nichts je gepfändet oder ihr Bankkonto geschlossen werden kann. Eine Welt, die keine Grenzen, Öffnungszeiten oder Ortsgebundenheiten kennt. Was wäre alles möglich, wenn wir eine solche Welt erschaffen könnten?";
+$translate[ "de" ][ "about_textC" ] = "BitSharesX ist der Welt erstes virtuelles Hochsicherheits-Schließfach. Ein Schließfach für das nur Sie den Schlüssel haben. BitSharesX erlaubt es Ihnen Derivate die den Preis von Euro, Gold, Silber, Aktien oder Indizes abbilden zu halten und zu handeln. Der Kauf und Verkauf erfolgt direkt mit Ihrem BitSharesX Konto, weltweit, zu jeder Zeit und unverzüglich.";
 $translate[ "de" ][ "about_best" ] = "Die Nutzung von BitSharesX ist kostenlos und <br />es fallen nur minimale Hanselgebühren an!";
 $translate[ "de" ][ "downloadnow" ] = "Jetzt herunterladen";
 $translate[ "de" ][ "poweredby" ] = 'BitSharesX basiert auf BitShares, einer quell-offenen Technologie.  Erfahren Sie mehr auf <a href="http://www.bitshares.org" target="_blank">bitshares.org</a>';
@@ -23,11 +23,11 @@ $translate[ "de" ][ "mothersbc" ]    = 'BLOCKCHAIN TECHNOLOGIE MEETS FINANZSEKTO
 $translate[ "de" ][ "mothersbc_desc" ]    = 'BitSharesX kombiniert kryptographisch gesicherte Währungen mit der Präzision von Prognosemärkten. ';
 
 $translate[ "de" ][ "feature1" ]         = 'INDIVIDUALISIERUNG';
-$translate[ "de" ][ "feature1_text" ]    = 'Lassen Sie Investoren an Ihrem Konzept, ihrer Geschäftsidee oder ihrem bereits etablierten Unternehmen teilhaben, indem Sie Diesen ermöglichen Anteile an eben Genanntem direkt von Person zu Person zu handeln. BitSharesX ermöglicht es Ihnen Zertifikate über den Besitz jedweder Sache auszustellen und Marktteilnehmern diese Besitzscheine ohne Mittelsmann handeln zu lassen.';
+$translate[ "de" ][ "feature1_text" ]    = 'Lassen Sie Investoren an Ihrem Konzept, ihrer Geschäftsidee oder ihrem bereits etablierten Unternehmen teilhaben, indem Sie Diesen ermöglichen Anteile an eben Genannten direkt von Person zu Person zu handeln. BitSharesX ermöglicht es Ihnen Zertifikate über den Besitz jedweder Sache auszustellen und Marktteilnehmern diese Besitzscheine ohne Mittelsmann handeln zu lassen.';
 $translate[ "de" ][ "feature2" ]         = 'GESCHWINDIGKEIT';
 $translate[ "de" ][ "feature2_text" ]    = 'Transaktionen werden innerhalb von Sekunden durgeführt, nicht Minuten, oder sogar, wie bei klassischen Überweisungen üblich, in Stunden oder Tagen. Handel im Tempo des Informationszeitalters. ';
 $translate[ "de" ][ "feature3" ]         = 'SICHERHEIT';
-$translate[ "de" ][ "feature3_text" ]    = 'Finanzen und Handel sind auf größtmöglichste Sicherheit angewiesen. BitSharesX operiert daher als ein Peer-to-Peer Netzwerk ohne zentralen Ausfall- oder Angriffspunkt. Als Sicherheitsmodell kommt <a target="_blank" href="http://bitshares.org/intro-to-delegated-proof-of-stake/">Delegated Proof-of-Stake (DPOS)</a> zum Einsatz.';
+$translate[ "de" ][ "feature3_text" ]    = 'Finanzen und Handel sind auf maximale Sicherheit angewiesen. BitSharesX operiert daher als ein Peer-to-Peer Netzwerk ohne zentralen Ausfall- und Angriffspunkt. Als Sicherheitsmodell kommt <a target="_blank" href="http://bitshares.org/intro-to-delegated-proof-of-stake/">Delegated Proof-of-Stake (DPOS)</a> zum Einsatz.';
 $translate[ "de" ][ "feature4" ]         = 'DIREKT';
 $translate[ "de" ][ "feature4_text" ]    = 'BitShares funktioniert Peer-To-Peer. Das bedeutet, wenn Sie Anlagegüter verschicken oder empfangen, tun Sie das direkt mit der anderen Partei. Es gibt keine Mittelsmänner, welchen Sie vertrauen müssen und die unerhöht hohe Gebühren fordern.';
 $translate[ "de" ][ "feature5" ]         = 'STABILITÄT';
