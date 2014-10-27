@@ -4,7 +4,7 @@ $translate[ "it" ][ "title" ] = "BitSharesX - Step outside the boX.";
 $translate[ "it" ][ "welcome" ] = 'Step outside the bo<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " />.';
 $translate[ "it" ][ "subtitle" ] = "Scambia crypto-capitali con sicurezza, privacy e velocità.";
 $translate[ "it" ][ "supertitle" ] = "";
-$translate[ "it" ][ "learnmore" ] = "Informati";
+$translate[ "it" ][ "learnmore" ] = "Approfondisci";
 $translate[ "it" ][ "about_headline" ] = 'La Tua <br>Fort Kno<img style="height: 58px;margin-top: -14px;" src="img/btsx-ico-w.svg" height="96" alt="BitShares X Logo " /> Personale';
 $translate[ "it" ][ "about_subtitle" ] = "finance - banking - trading";
 $translate[ "it" ][ "about_textA" ] = "Molta gente oggi ha perso fiducia nelle istituzioni finanziarie di cui noi tutti ci siamo fidati per secoli. Alcune delle nostre più grandi banche sono fallite o non esistono più. Quelle che sono sopravvissute hanno avuto bisogno di salvataggi massivi. I cittadini di alcuni paesi hanno perso i risparmi di una vita per pagare le decisioni fallimentari dei governi. E quelli che li avevano messi al sicuro, hanno visto il loro valore abbassarsi dalla costante crescita dell'inflazione. Il nostro sistema finanziario necessita di una messa in discussione.";
@@ -30,7 +30,7 @@ $translate[ "it" ][ "feature3_text" ] = 'Gli strumenti finanziari sono niente se
 $translate[ "it" ][ "feature4" ] = 'DIRETTO';
 $translate[ "it" ][ "feature4_text" ] = 'BitSharesX è peer to peer. Questo significa che quando invii o ricevi lo fai direttamente con la persona all\'altro capo. Nessun intermediario nel mezzo. Nessun intermediario che pretende la sua parte.';
 $translate[ "it" ][ "feature5" ] = 'STABILITÀ';
-$translate[ "it" ][ "feature5_text" ] = 'Immagina tutte le caratteristiche rivoluzionarie di Bitcoin combinate con la stabilità del Dollaro. Si chiama bitUSD, la prima crypto-valuta veramente stabile e solo disponibile su BitSharesX';
+$translate[ "it" ][ "feature5_text" ] = 'Immagina tutte le caratteristiche rivoluzionarie di Bitcoin combinate con la stabilità del Dollaro. Si chiama bitUSD, la prima crypto-valuta stabile senza una controparte centrale e solo disponibile su BitSharesX';
 $translate[ "it" ][ "feature6" ] = 'PRIVACY';
 $translate[ "it" ][ "feature6_text" ] = 'BitSharesX usa TITAN (Transfer Invisibly To A Name), un sistema che facilità l\'uso e aumenta la privacy rispetto al Bitcoin. Registra un nome e dallo a chi vuoi, non avrai mai più bisogno di public keys.';
 $translate[ "it" ][ "getshares" ] = 'VUOI I BITSHARESX?';
